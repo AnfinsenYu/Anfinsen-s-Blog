@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 ---
 
-Hugo 是一个用 Go 语言编写的静态站点生成器，以其极快的构建速度而闻名。
+Hugo 是一个用 Go 语言编写的静态站点生成器，以其极快的构建速度而闻名。⚡
 
 ## 安装 Hugo
 
@@ -51,7 +51,7 @@ hugo new content posts/my-first-post.md
 hugo server -D
 ```
 
-访问 `http://localhost:1313` 查看效果。
+访问 `http://localhost:1313` 查看效果。👀
 
 ## 构建站点
 
@@ -59,8 +59,8 @@ hugo server -D
 hugo --minify
 ```
 
-生成的静态文件在 `public` 目录中。
+生成的静态文件在 `public` 目录中。📦
 
 ## 总结
 
-Hugo 是一个强大而快速的静态站点生成器，非常适合搭建个人博客。
+Hugo 是一个强大而快速的静态站点生成器，非常适合搭建个人博客。🎯
