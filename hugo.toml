@@ -1,0 +1,41 @@
+baseURL = 'https://anfinsenyu.github.io/Anfinsen-s-Blog/'
+locale = 'zh-cn'
+title = '我的博客'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  comments = false
+
+[params.homeInfoParams]
+  Title = "欢迎来到我的博客"
+  Content = "分享技术、生活与思考"
+
+[params.search]
+  enable = true
+  showSearch = true
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/AnfinsenYu"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "monokai"
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
