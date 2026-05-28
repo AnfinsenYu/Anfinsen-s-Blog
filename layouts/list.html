@@ -7,6 +7,10 @@
         <div style="flex: 1;">
             <h1>{{ .title | default site.Title | markdownify }}</h1>
             <span>{{ .subtitle | markdownify }}</span>
+            <div style="margin-top: 0.5rem; line-height: 1.8; color: var(--secondary);">
+                <div>🐙 GitHub: <a href="https://github.com/AnfinsenYu" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none;">AnfinsenYu</a></div>
+                <div>📧 Email: <a href="mailto:AnfinsenYu@qq.com" style="color: var(--primary); text-decoration: none;">AnfinsenYu@qq.com</a></div>
+            </div>
             {{- partial "social_icons.html" -}}
             {{- with .buttons }}
             <div class="buttons" style="justify-content: flex-start;">
