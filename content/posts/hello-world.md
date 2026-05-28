@@ -1,6 +1,6 @@
 ---
 title: "你好，世界"
-date: 2026-05-28T10:00:00+08:00
+date: 2026-05-28T12:00:00+08:00
 draft: false
 description: "我的第一篇博客文章"
 categories: ["随笔"]

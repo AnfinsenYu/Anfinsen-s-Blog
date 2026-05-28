@@ -1,6 +1,6 @@
 ---
 title: "从零开始搭建 Hugo 个人博客：完整实战指南"
-date: 2026-05-28T11:00:00+08:00
+date: 2026-05-28T11:30:00+08:00
 draft: false
 description: "从安装到部署，手把手教你用 Hugo + PaperMod + GitHub Pages 搭建个人博客"
 categories: ["技术"]
