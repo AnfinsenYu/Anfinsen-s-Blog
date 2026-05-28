@@ -1,6 +1,6 @@
 baseURL = 'https://anfinsenyu.github.io/Anfinsen-s-Blog/'
 locale = 'zh-cn'
-title = '我的博客'
+title = 'AnBlog'
 theme = 'PaperMod'
 
 [params]
@@ -16,7 +16,7 @@ theme = 'PaperMod'
 [params.profileMode]
   enabled = true
   title = "欢迎来到我的博客 ✨"
-  subtitle = "分享技术、生活与思考 🚀"
+  subtitle = "分享技术💻生活🏠与思考🔍 🚀"
   imageUrl = "/images/avatar.jpg"
   imageWidth = 180
   imageHeight = 180
