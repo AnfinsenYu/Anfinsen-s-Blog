@@ -13,17 +13,23 @@ theme = 'PaperMod'
   ShowToc = true
   comments = false
 
-[params.homeInfoParams]
-  Title = "欢迎来到我的博客 ✨"
-  Content = "分享技术、生活与思考 🚀"
+[params.profileMode]
+  enabled = true
+  title = "欢迎来到我的博客 ✨"
+  subtitle = "分享技术、生活与思考 🚀"
+  imageUrl = "/images/avatar.jpg"
+  imageWidth = 180
+  imageHeight = 180
+  imageTitle = "头像"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/AnfinsenYu"
 
 [params.search]
   enable = true
   showSearch = true
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/AnfinsenYu"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
