@@ -1,5 +1,5 @@
 ---
-title: "从零到一：用 RAGFlow 搭建企业考勤助手"
+title: "RAGFlow实战：从零搭建企业考勤助手"
 date: 2026-06-02T12:00:00+08:00
 draft: false
 description: "基于 RAGFlow + Ollama + DeepSeek 的企业知识问答系统实战"
@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 ---
 
-# 从零到一：用 RAGFlow 搭建企业考勤助手
+# RAGFlow实战：从零搭建企业考勤助手
 
 > 基于 RAGFlow + Ollama + DeepSeek 的企业知识问答系统实战
 
