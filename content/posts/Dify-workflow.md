@@ -1,6 +1,6 @@
 ---
 title: "Dify 实战：从零搭建智能请假申请工作流"
-date: 2026-06-01T15:00:00+08:00
+date: 2026-06-01T14:00:00+08:00
 draft: false
 description: "手把手教你使用 Dify Chatflow 搭建智能请假申请工作流，包含知识库 RAG、条件分支、多轮对话等核心功能"
 categories: ["AI"]

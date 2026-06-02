@@ -1,6 +1,6 @@
 ---
 title: "Dify vs RAGFlow 终极对决：谁才是企业级 AI 应用的最佳选择？"
-date: 2026-06-02T14:00:00+08:00
+date: 2026-06-02T15:00:00+08:00
 draft: false
 description: "深度对比 Dify 和 RAGFlow 两大开源 AI 平台，从架构设计、核心功能、部署难度、性能表现等多个维度进行全方位 PK，帮助你做出最佳技术选型"
 categories: ["AI"]
