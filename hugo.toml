@@ -2,6 +2,7 @@ baseURL = 'https://anfinsenyu.github.io/Anfinsen-s-Blog/'
 locale = 'zh-cn'
 title = 'AnBlog'
 theme = 'PaperMod'
+buildFuture = true
 
 [params]
   defaultTheme = "auto"

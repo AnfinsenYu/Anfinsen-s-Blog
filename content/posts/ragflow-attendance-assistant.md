@@ -101,7 +101,7 @@ ollama list
 
 ### 2.3 安装 RAGFlow
 
-详细步骤参考 [RAGFlow 安装部署指南]({{< relref "/posts/RAGFlow" >}})
+详细步骤参考 [RAGFlow 安装部署指南](/posts/ragflow/)
 
 **关键点提醒：**
 - ⚠️ 使用完整版镜像，不要用 slim 版本
@@ -475,8 +475,8 @@ CHUNK_OVERLAP=50
 ## 附录
 
 ### 参考资源
-- [RAGFlow 安装部署指南]({{< relref "/posts/RAGFlow" >}})
-- 项目演示 PPT（见 [RAGFlow 安装部署指南]({{< relref "/posts/RAGFlow" >}}) 附件）
+- [RAGFlow 安装部署指南](/posts/ragflow/)
+- 项目演示 PPT（见 [RAGFlow 安装部署指南](/posts/ragflow/) 附件）
 - [RAGFlow GitHub](https://github.com/infiniflow/ragflow)
 
 ### 项目文件结构
