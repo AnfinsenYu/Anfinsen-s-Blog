@@ -123,9 +123,14 @@
 {{- end }}
 
 {{- $isPostList := or .IsHome (eq .Section "posts") }}
+{{- $hasPinned := gt (len $pinned) 0 }}
 
-{{/* 排序按钮 */}}
-{{- if and $isPostList (eq $paginator.PageNumber 1) }}
+{{- $term := .Data.Term }}
+{{- $prevPinned := false }}
+{{- range $index, $page := $paginator.Pages }}
+
+{{/* 在置顶和普通文章之间插入排序按钮；无置顶时在第一篇前显示 */}}
+{{- if and $isPostList (eq $paginator.PageNumber 1) (or (and $hasPinned $prevPinned (not .Params.pinned)) (and (not $hasPinned) (eq $index 0))) }}
 <div class="sort-toggle" style="display: flex; justify-content: flex-end; margin-bottom: 1rem;">
   <button id="sort-btn" class="sort-toggle-btn" onclick="toggleSort()" title="切换排序方式">
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -136,9 +141,7 @@
   </button>
 </div>
 {{- end }}
-
-{{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
+{{- $prevPinned = .Params.pinned }}
 
 {{- $isPinned := .Params.pinned }}
 {{- $class := "post-entry" }}
@@ -220,8 +223,8 @@
     var currentOrder = localStorage.getItem(STORAGE_KEY) || 'desc';
     var btn = document.getElementById('sort-btn');
     var label = document.getElementById('sort-label');
-    var container = btn.parentElement;
-    var listParent = container.parentElement;
+    var sortBtnDiv = btn.parentElement;
+    var listParent = sortBtnDiv.parentElement;
 
     function applySort(order) {
         var allArticles = Array.from(listParent.querySelectorAll('article.post-entry, article.first-entry, article.pinned-entry'));
@@ -243,12 +246,14 @@
             return order === 'asc' ? da - db : db - da;
         });
 
-        // 合并：置顶在前，普通在后
-        var sorted = pinned.concat(regular);
+        // 先插入置顶文章到排序按钮之前
+        pinned.forEach(function(article) {
+            listParent.insertBefore(article, sortBtnDiv);
+        });
 
-        // 重新插入 DOM
-        var anchor = container;
-        sorted.forEach(function(article) {
+        // 再插入普通文章到排序按钮之后
+        var anchor = sortBtnDiv.nextSibling;
+        regular.forEach(function(article) {
             listParent.insertBefore(article, anchor);
         });
 
