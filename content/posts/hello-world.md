@@ -2,6 +2,7 @@
 title: "Hello World！@YoYo🐷"
 date: 2026-05-28T10:00:00+08:00
 draft: false
+pinned: true
 description: "我的第一篇博客文章"
 categories: ["随笔"]
 tags: ["博客", "开始"]
