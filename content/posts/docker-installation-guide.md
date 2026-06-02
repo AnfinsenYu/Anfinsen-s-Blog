@@ -1,6 +1,6 @@
 ---
 title: "Docker Windows 安装指南"
-date: 2026-05-13T10:00:00+08:00
+date: 2026-05-28T12:00:00+08:00
 draft: false
 description: "基于 Docker Desktop + WSL2 的完整安装流程"
 categories: ["技术"]
