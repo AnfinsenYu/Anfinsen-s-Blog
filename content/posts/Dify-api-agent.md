@@ -85,7 +85,7 @@ POST   /v1/text-to-audio               # 文字转语音
 import requests
 import json
 
-API_KEY = "app-92BCSC7UBkDVPkIro2Xjchxz"
+API_KEY = "app-xxxxxxxxxxxxxxxx"  # 替换为你的 API Key
 API_URL = "http://localhost:8080/v1/chat-messages"
 
 headers = {
@@ -300,7 +300,7 @@ Agent 的配置存储在 `app_model_configs` 表的 `agent_mode` 字段中：
 Agent 应用的 API Key 与 Chatflow 独立：
 
 ```python
-API_KEY = "app-IrFQsZZwzZgYb3IFAq49A565"  # Agent 的 API Key
+API_KEY = "app-xxxxxxxxxxxxxxxx"  # 替换为你的 Agent API Key
 API_URL = "http://localhost:8080/v1/chat-messages"
 ```
 
