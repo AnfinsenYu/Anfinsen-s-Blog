@@ -109,48 +109,20 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
-{{/* 分离置顶文章和普通文章 */}}
+{{/* 分离置顶和普通文章，置顶按日期倒序 */}}
 {{- $pinned := where $pages "Params.pinned" true }}
 {{- $pinned = $pinned.ByDate.Reverse }}
 {{- $regular := where $pages "Params.pinned" "!=" true }}
 
-{{- $paginator := .Paginate $regular }}
+{{/* 合并：置顶在前，普通在后 */}}
+{{- $sorted := $pinned | append $regular }}
+{{- $paginator := .Paginate $sorted }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}
 
 {{- $isPostList := or .IsHome (eq .Section "posts") }}
-
-{{/* 置顶文章 - 仅首页第一页显示 */}}
-{{- if and $isPostList (eq $paginator.PageNumber 1) (gt (len $pinned) 0) }}
-<div class="pinned-posts">
-  <div class="pinned-header">📌 置顶文章</div>
-  {{- range $pinned }}
-  <article class="post-entry pinned-entry" data-date="{{ .Date.Unix }}">
-    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
-    <header class="entry-header">
-      <h2 class="entry-hint-parent">
-        <span class="pinned-tag" title="置顶">📌</span>
-        {{- .Title }}
-      </h2>
-    </header>
-    {{- if (ne (.Param "hideSummary") true) }}
-    <div class="entry-content">
-      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    </div>
-    {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <footer class="entry-footer">
-      {{- partial "post_meta.html" . -}}
-    </footer>
-    {{- end }}
-    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-  </article>
-  {{- end }}
-</div>
-{{- end }}
 
 {{/* 排序按钮 */}}
 {{- if and $isPostList (eq $paginator.PageNumber 1) }}
@@ -165,24 +137,29 @@
 </div>
 {{- end }}
 
-{{/* 普通文章列表 */}}
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
+{{- $isPinned := .Params.pinned }}
 {{- $class := "post-entry" }}
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred) (eq (len $pinned) 0)) }}
+{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred) (not $isPinned)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}" data-date="{{ .Date.Unix }}">
+{{- if $isPinned }}
+{{- $class = printf "%s pinned-entry" $class }}
+{{- end }}
+
+<article class="{{ $class }}" data-date="{{ .Date.Unix }}" data-pinned="{{ if $isPinned }}true{{ else }}false{{ end }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">
+      {{- if $isPinned }}<span class="pinned-tag" title="置顶">📌</span>{{- end }}
       {{- .Title }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
@@ -227,16 +204,6 @@
     border-color: var(--primary);
     color: var(--primary);
 }
-.pinned-posts {
-    margin-bottom: 2rem;
-}
-.pinned-header {
-    font-size: 0.9rem;
-    color: var(--secondary);
-    margin-bottom: 0.75rem;
-    padding-left: 4px;
-    font-weight: 500;
-}
 .pinned-entry {
     border-left: 3px solid var(--primary);
     padding-left: 12px;
@@ -253,21 +220,36 @@
     var currentOrder = localStorage.getItem(STORAGE_KEY) || 'desc';
     var btn = document.getElementById('sort-btn');
     var label = document.getElementById('sort-label');
+    var container = btn.parentElement;
+    var listParent = container.parentElement;
 
     function applySort(order) {
-        var container = btn.parentElement;
-        var articles = Array.from(container.parentElement.querySelectorAll('article.post-entry, article.first-entry'));
-        if (articles.length === 0) return;
+        var allArticles = Array.from(listParent.querySelectorAll('article.post-entry, article.first-entry, article.pinned-entry'));
+        if (allArticles.length === 0) return;
 
-        articles.sort(function(a, b) {
+        // 分离置顶和普通文章
+        var pinned = allArticles.filter(function(a) { return a.getAttribute('data-pinned') === 'true'; });
+        var regular = allArticles.filter(function(a) { return a.getAttribute('data-pinned') !== 'true'; });
+
+        // 置顶内部按日期倒序
+        pinned.sort(function(a, b) {
+            return (parseInt(b.getAttribute('data-date')) || 0) - (parseInt(a.getAttribute('data-date')) || 0);
+        });
+
+        // 普通文章按选择的顺序排序
+        regular.sort(function(a, b) {
             var da = parseInt(a.getAttribute('data-date')) || 0;
             var db = parseInt(b.getAttribute('data-date')) || 0;
             return order === 'asc' ? da - db : db - da;
         });
 
-        var lastArticle = articles[articles.length - 1];
-        articles.forEach(function(article) {
-            container.parentElement.insertBefore(article, lastArticle.nextSibling);
+        // 合并：置顶在前，普通在后
+        var sorted = pinned.concat(regular);
+
+        // 重新插入 DOM
+        var anchor = container;
+        sorted.forEach(function(article) {
+            listParent.insertBefore(article, anchor);
         });
 
         label.textContent = order === 'desc' ? '最新发布' : '最早发布';
