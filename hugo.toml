@@ -6,7 +6,6 @@ buildFuture = true
 
 [params]
   defaultTheme = "auto"
-  dateFormat = "2006年01月02日"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
