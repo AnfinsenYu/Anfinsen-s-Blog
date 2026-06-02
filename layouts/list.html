@@ -109,13 +109,50 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
-{{- $paginator := .Paginate $pages }}
+{{/* 分离置顶文章和普通文章 */}}
+{{- $pinned := where $pages "Params.pinned" true }}
+{{- $pinned = $pinned.ByDate.Reverse }}
+{{- $regular := where $pages "Params.pinned" "!=" true }}
+
+{{- $paginator := .Paginate $regular }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}
 
 {{- $isPostList := or .IsHome (eq .Section "posts") }}
+
+{{/* 置顶文章 - 仅首页第一页显示 */}}
+{{- if and $isPostList (eq $paginator.PageNumber 1) (gt (len $pinned) 0) }}
+<div class="pinned-posts">
+  <div class="pinned-header">📌 置顶文章</div>
+  {{- range $pinned }}
+  <article class="post-entry pinned-entry" data-date="{{ .Date.Unix }}">
+    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        <span class="pinned-tag" title="置顶">📌</span>
+        {{- .Title }}
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+{{- end }}
+
+{{/* 排序按钮 */}}
 {{- if and $isPostList (eq $paginator.PageNumber 1) }}
 <div class="sort-toggle" style="display: flex; justify-content: flex-end; margin-bottom: 1rem;">
   <button id="sort-btn" class="sort-toggle-btn" onclick="toggleSort()" title="切换排序方式">
@@ -128,13 +165,14 @@
 </div>
 {{- end }}
 
+{{/* 普通文章列表 */}}
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred) (eq (len $pinned) 0)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
@@ -188,6 +226,25 @@
 .sort-toggle-btn:hover {
     border-color: var(--primary);
     color: var(--primary);
+}
+.pinned-posts {
+    margin-bottom: 2rem;
+}
+.pinned-header {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-bottom: 0.75rem;
+    padding-left: 4px;
+    font-weight: 500;
+}
+.pinned-entry {
+    border-left: 3px solid var(--primary);
+    padding-left: 12px;
+    background: linear-gradient(to right, rgba(var(--primary-rgb), 0.03), transparent);
+}
+.pinned-tag {
+    margin-right: 4px;
+    font-size: 0.85em;
 }
 </style>
 <script>
