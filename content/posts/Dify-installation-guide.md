@@ -344,4 +344,4 @@ Dify 的 Docker Compose 部署非常便捷，核心步骤就三步：
 
 *本文基于 Dify v1.14.2，项目地址：https://github.com/langgenius/dify*
 
-*下一篇：[Dify 实战：从零搭建智能请假申请工作流](Dify-请假工作流从0到1.md)*
+*下一篇：[Dify 实战：从零搭建智能请假申请工作流]({{< relref "/posts/Dify-workflow" >}})*

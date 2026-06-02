@@ -115,6 +115,19 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- $isPostList := or .IsHome (eq .Section "posts") }}
+{{- if and $isPostList (eq $paginator.PageNumber 1) }}
+<div class="sort-toggle" style="display: flex; justify-content: flex-end; margin-bottom: 1rem;">
+  <button id="sort-btn" class="sort-toggle-btn" onclick="toggleSort()" title="切换排序方式">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="5" x2="12" y2="19"></line>
+      <polyline points="19 12 12 19 5 12"></polyline>
+    </svg>
+    <span id="sort-label">最新发布</span>
+  </button>
+</div>
+{{- end }}
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -127,7 +140,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}">
+<article class="{{ $class }}" data-date="{{ .Date.Unix }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
@@ -155,6 +168,69 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
+
+{{- if and $isPostList (eq $paginator.PageNumber 1) }}
+<style>
+.sort-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--entry);
+    color: var(--secondary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.sort-toggle-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+</style>
+<script>
+(function() {
+    var STORAGE_KEY = 'post-sort-order';
+    var currentOrder = localStorage.getItem(STORAGE_KEY) || 'desc';
+    var btn = document.getElementById('sort-btn');
+    var label = document.getElementById('sort-label');
+
+    function applySort(order) {
+        var container = btn.parentElement;
+        var articles = Array.from(container.parentElement.querySelectorAll('article.post-entry, article.first-entry'));
+        if (articles.length === 0) return;
+
+        articles.sort(function(a, b) {
+            var da = parseInt(a.getAttribute('data-date')) || 0;
+            var db = parseInt(b.getAttribute('data-date')) || 0;
+            return order === 'asc' ? da - db : db - da;
+        });
+
+        var lastArticle = articles[articles.length - 1];
+        articles.forEach(function(article) {
+            container.parentElement.insertBefore(article, lastArticle.nextSibling);
+        });
+
+        label.textContent = order === 'desc' ? '最新发布' : '最早发布';
+        var svg = btn.querySelector('svg');
+        if (order === 'asc') {
+            svg.innerHTML = '<line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline>';
+        } else {
+            svg.innerHTML = '<line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline>';
+        }
+    }
+
+    window.toggleSort = function() {
+        currentOrder = currentOrder === 'desc' ? 'asc' : 'desc';
+        localStorage.setItem(STORAGE_KEY, currentOrder);
+        applySort(currentOrder);
+    };
+
+    applySort(currentOrder);
+})();
+</script>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
