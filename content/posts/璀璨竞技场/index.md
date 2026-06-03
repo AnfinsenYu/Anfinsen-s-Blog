@@ -124,9 +124,13 @@ cover:
 
 ![m1 带不动局](m1带不动局.png)
 
+> 🎬 [点击查看完整对局录像（P2）](https://www.bilibili.com/video/BV1BDG66CEKc/?p=2)
+
 **m2 爆杀局**——也有爽局，直接碾压：
 
 ![m2 爆杀局](m2爆杀局.png)
+
+> 🎬 [点击查看完整对局录像（P3）](https://www.bilibili.com/video/BV1BDG66CEKc/?p=3)
 
 ---
 
