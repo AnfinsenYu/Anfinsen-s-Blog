@@ -4,9 +4,11 @@ title = 'AnBlog'
 theme = 'PaperMod'
 buildFuture = true
 
+[pagination]
+  pagersize = 50
+
 [params]
   defaultTheme = "auto"
-  paginate = 50
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
