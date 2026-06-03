@@ -220,7 +220,7 @@
 </style>
 <script>
 (function() {
-    var STORAGE_KEY = 'post-sort-order';
+    var STORAGE_KEY = 'post-sort-order-v2';
     var currentOrder = localStorage.getItem(STORAGE_KEY) || 'desc';
     var btn = document.getElementById('sort-btn');
     var label = document.getElementById('sort-label');
@@ -228,14 +228,21 @@
     var listParent = sortBtnDiv.parentElement;
 
     function applySort(order) {
-        var allArticles = Array.from(listParent.querySelectorAll('article.post-entry, article.first-entry, article.pinned-entry'));
+        var allArticles = Array.from(listParent.querySelectorAll('article[data-date]'));
         if (allArticles.length === 0) return;
 
         // 分离置顶和普通文章
-        var pinned = allArticles.filter(function(a) { return a.getAttribute('data-pinned') === 'true'; });
-        var regular = allArticles.filter(function(a) { return a.getAttribute('data-pinned') !== 'true'; });
+        var pinned = [];
+        var regular = [];
+        allArticles.forEach(function(a) {
+            if (a.getAttribute('data-pinned') === 'true') {
+                pinned.push(a);
+            } else {
+                regular.push(a);
+            }
+        });
 
-        // 置顶内部按日期倒序
+        // 置顶内部按日期倒序（最新在前）
         pinned.sort(function(a, b) {
             return (parseInt(b.getAttribute('data-date')) || 0) - (parseInt(a.getAttribute('data-date')) || 0);
         });
@@ -244,19 +251,25 @@
         regular.sort(function(a, b) {
             var da = parseInt(a.getAttribute('data-date')) || 0;
             var db = parseInt(b.getAttribute('data-date')) || 0;
-            return order === 'asc' ? da - db : db - da;
+            if (order === 'asc') {
+                return da - db;  // 正序：最早在前
+            } else {
+                return db - da;  // 倒序：最新在前
+            }
         });
 
-        // 先插入置顶文章到排序按钮之前
-        pinned.forEach(function(article) {
-            listParent.insertBefore(article, sortBtnDiv);
-        });
+        // 清空再重建：先放置顶，再放排序按钮，最后放普通文章
+        // 先把所有文章从 DOM 移除
+        pinned.forEach(function(a) { a.remove(); });
+        regular.forEach(function(a) { a.remove(); });
+        sortBtnDiv.remove();
 
-        // 再插入普通文章到排序按钮之后
-        var anchor = sortBtnDiv.nextSibling;
-        regular.forEach(function(article) {
-            listParent.insertBefore(article, anchor);
-        });
+        // 按顺序重新插入
+        var frag = document.createDocumentFragment();
+        pinned.forEach(function(a) { frag.appendChild(a); });
+        frag.appendChild(sortBtnDiv);
+        regular.forEach(function(a) { frag.appendChild(a); });
+        listParent.appendChild(frag);
 
         label.textContent = order === 'desc' ? '最新发布' : '最早发布';
         var svg = btn.querySelector('svg');

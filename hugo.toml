@@ -6,6 +6,7 @@ buildFuture = true
 
 [params]
   defaultTheme = "auto"
+  paginate = 50
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
