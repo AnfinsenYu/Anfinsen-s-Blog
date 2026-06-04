@@ -39,6 +39,8 @@ buildFuture = true
   home = ["HTML", "RSS", "JSON"]
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafeHTML = true
   [markup.highlight]
     lineNos = true
     style = "monokai"
