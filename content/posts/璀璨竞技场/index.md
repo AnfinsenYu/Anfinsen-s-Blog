@@ -136,10 +136,9 @@ cover:
 
 ![麦香鸡大神](麦香鸡大神.jpg)
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-  <img src="麦香鸡对话1.jpg" alt="麦香鸡对话 上" style="max-width: 48%;">
-  <img src="麦香鸡对话2.jpg" alt="麦香鸡对话 下" style="max-width: 48%;">
-</div>
+| | |
+|:---:|:---:|
+| ![对话上](麦香鸡对话1.jpg) | ![对话下](麦香鸡对话2.jpg) |
 
 这局打得异常激烈。第一回合我几乎没吃到资源，被一路推到终点，心里很憋屈。这时输出位队友 柳色风大海 开始给辅助施压："我说实话我们T玩得比对面好，T吃不到资源，你们换别的。"
 
