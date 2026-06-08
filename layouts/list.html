@@ -191,6 +191,71 @@
 
 {{- if and $isPostList (eq $paginator.PageNumber 1) }}
 <style>
+/* 汉堡菜单按钮 */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    padding: 0.5rem;
+    line-height: 1;
+}
+.menu-toggle svg {
+    display: block;
+}
+
+/* 手机端响应式 */
+@media screen and (max-width: 768px) {
+    /* 首页：头像和文字上下堆叠 */
+    .profile_inner {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .profile_inner > div:first-child {
+        order: 1;
+    }
+    .profile_inner > div:last-child {
+        order: 0;
+        margin-bottom: 1rem;
+    }
+
+    /* 汉堡按钮显示 */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* 菜单默认隐藏，点击后显示 */
+    .menu {
+        display: none !important;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0;
+        gap: 0;
+        border-top: 1px solid var(--border);
+        margin-top: 0.5rem;
+    }
+    .menu.menu-open {
+        display: flex !important;
+    }
+    .menu li {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border);
+    }
+    .menu li:last-child {
+        border-bottom: none;
+    }
+    .menu a {
+        display: block;
+        width: 100%;
+    }
+
+    /* header-nav 在手机端换行 */
+    .header-nav {
+        flex-wrap: wrap;
+    }
+}
+
 .sort-toggle-btn {
     display: inline-flex;
     align-items: center;
