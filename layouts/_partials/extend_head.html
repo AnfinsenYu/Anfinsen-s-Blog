@@ -62,5 +62,32 @@
     .header-nav {
         flex-wrap: wrap;
     }
+
+    /* 图片响应式 */
+    .post-content img,
+    .entry-content img,
+    .post-entry img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* 表格横向滚动 */
+    .post-content table,
+    .entry-content table,
+    .post-entry table,
+    table {
+        display: block;
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+    /* 代码块横向滚动 */
+    .post-content pre,
+    .entry-content pre,
+    .highlight pre,
+    pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
 }
 </style>
