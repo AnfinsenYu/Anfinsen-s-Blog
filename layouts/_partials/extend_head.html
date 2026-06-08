@@ -1,7 +1,7 @@
 <style>
 /* 汉堡菜单按钮 */
-.menu-toggle {
-    display: none;
+.header .header-nav .menu-toggle {
+    display: none !important;
     background: none;
     border: none;
     color: var(--primary);
@@ -9,7 +9,7 @@
     padding: 0.5rem;
     line-height: 1;
 }
-.menu-toggle svg {
+.header .header-nav .menu-toggle svg {
     display: block;
 }
 
@@ -29,12 +29,12 @@
     }
 
     /* 汉堡按钮显示 */
-    .menu-toggle {
-        display: block;
+    .header .header-nav .menu-toggle {
+        display: block !important;
     }
 
     /* 菜单默认隐藏，点击后显示 */
-    .menu {
+    header nav ul.menu {
         display: none !important;
         flex-direction: column;
         width: 100%;
@@ -43,17 +43,17 @@
         border-top: 1px solid var(--border);
         margin-top: 0.5rem;
     }
-    .menu.menu-open {
+    header nav ul.menu.menu-open {
         display: flex !important;
     }
-    .menu li {
+    header nav ul.menu li {
         padding: 0.75rem 0;
         border-bottom: 1px solid var(--border);
     }
-    .menu li:last-child {
+    header nav ul.menu li:last-child {
         border-bottom: none;
     }
-    .menu a {
+    header nav ul.menu li a {
         display: block;
         width: 100%;
     }
