@@ -9,10 +9,10 @@ description: "守望先锋十年回忆录第三篇：高一的OWL狂热、广州
 showToc: true
 TocOpen: true
 cover:
-  image: ""
-  alt: "守望先锋2019"
-  caption: ""
-  relative: false
+  image: "cover.jpg"
+  alt: "守望先锋2019广州城市巡礼"
+  caption: "2019广州城市巡礼现场"
+  relative: true
 ---
 
 # 入坑高峰年：2019，OWL巅峰与广州线下观赛
