@@ -211,14 +211,14 @@ cover:
 
 | 日期 | 类型 | 内容 | 金额 |
 |------|------|------|------|
-| 2018-02-09 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 60货币（24份） | ¥120 |
-| 2018-02-09 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 30货币（11份） | ¥60 |
-| 2018-02-10 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 30货币（11份） | ¥60 |
-| 2018-02-10 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 5货币（2份） | ¥12 |
-| 2018-02-10 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 5货币（2份） | ¥12 |
-| 2018-02-11 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 5货币（2份） | ¥12 |
-| 2018-02-20 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 15货币（5份） | ¥30 |
-| 2018-02-20 | <img src="Lunar_New_Year_Icon.jpg" width="16"> 春节补给 | 15货币（5份） | ¥30 |
+| 2018-02-09 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 60货币（24份） | ¥120 |
+| 2018-02-09 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 30货币（11份） | ¥60 |
+| 2018-02-10 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 30货币（11份） | ¥60 |
+| 2018-02-10 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 5货币（2份） | ¥12 |
+| 2018-02-10 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 5货币（2份） | ¥12 |
+| 2018-02-11 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 5货币（2份） | ¥12 |
+| 2018-02-20 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 15货币（5份） | ¥30 |
+| 2018-02-20 | <img src="Lunar_New_Year_Icon.png" width="16"> 春节补给 | 15货币（5份） | ¥30 |
 | 2018-04-13 | ⚔️ 行动补给 | 30货币（11份） | ¥60 |
 | 2018-04-13 | ⚔️ 行动补给 | 15货币（5份） | ¥30 |
 | 2018-04-23 | ⚔️ 行动补给 | 5货币（2份） | ¥0 |
@@ -232,7 +232,7 @@ cover:
 | 2018-08-10 | <img src="owltoken.svg" width="16"> 联赛代币 | 400枚 | ¥120 |
 | 2018-08-18 | <img src="owltoken.svg" width="16"> 联赛代币 | 200枚 | ¥60 |
 | 2018-10-13 | <img src="Halloween_Terror_Icon.jpg" width="16"> 万圣节补给 | 60货币（24份） | ¥120 |
-| 2018-12-15 | <img src="Winter_Wonderland_Icon.jpg" width="16"> 圣诞补给 | 60货币（24份） | ¥120 |
+| 2018-12-15 | <img src="Winter_Wonderland_Icon.png" width="16"> 圣诞补给 | 60货币（24份） | ¥120 |
 | **2018年合计** | | | **¥1,302** |
 
 ### 消费亮点
