@@ -219,10 +219,10 @@ cover:
 | 2018-02-11 | 🎆 春节补给 | <img src="Lunar_New_Year_Icon.png" width="16"> | 5货币（2份） | ¥12 |
 | 2018-02-20 | 🎆 春节补给 | <img src="Lunar_New_Year_Icon.png" width="16"> | 15货币（5份） | ¥30 |
 | 2018-02-20 | 🎆 春节补给 | <img src="Lunar_New_Year_Icon.png" width="16"> | 15货币（5份） | ¥30 |
-| 2018-04-13 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 30货币（11份） | ¥60 |
-| 2018-04-13 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 15货币（5份） | ¥30 |
-| 2018-04-23 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 5货币（2份） | ¥0 |
-| 2018-04-24 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 5货币（2份） | ¥0 |
+| 2018-04-13 | ⚔️ 行动补给 | <img src="Spray_Archives.jpg" width="16"> | 30货币（11份） | ¥60 |
+| 2018-04-13 | ⚔️ 行动补给 | <img src="Spray_Archives.jpg" width="16"> | 15货币（5份） | ¥30 |
+| 2018-04-23 | ⚔️ 行动补给 | <img src="Spray_Archives.jpg" width="16"> | 5货币（2份） | ¥0 |
+| 2018-04-24 | ⚔️ 行动补给 | <img src="Spray_Archives.jpg" width="16"> | 5货币（2份） | ¥0 |
 | 2018-05-10 | 👼 粉红天使 | <img src="Charity.png" width="16"> | 慈善皮肤 | ¥98 |
 | 2018-05-24 | 🎮 周年补给 | <img src="Overwatch_Anniversary_Icon.jpg" width="16"> | 60货币（24份） | ¥120 |
 | 2018-05-25 | 🎮 周年补给 | <img src="Overwatch_Anniversary_Icon.jpg" width="16"> | 30货币（11份） | ¥60 |
