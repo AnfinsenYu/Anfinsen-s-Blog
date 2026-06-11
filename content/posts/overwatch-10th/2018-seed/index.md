@@ -223,16 +223,16 @@ cover:
 | 2018-04-13 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 15货币（5份） | ¥30 |
 | 2018-04-23 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 5货币（2份） | ¥0 |
 | 2018-04-24 | ⚔️ 行动补给 | <img src="Archives_Icon.png" width="16"> | 5货币（2份） | ¥0 |
-| 2018-05-10 | 👼 粉红天使 | | 慈善皮肤 | ¥98 |
+| 2018-05-10 | 👼 粉红天使 | <img src="Charity.png" width="16"> | 慈善皮肤 | ¥98 |
 | 2018-05-24 | 🎮 周年补给 | <img src="Overwatch_Anniversary_Icon.jpg" width="16"> | 60货币（24份） | ¥120 |
 | 2018-05-25 | 🎮 周年补给 | <img src="Overwatch_Anniversary_Icon.jpg" width="16"> | 30货币（11份） | ¥60 |
-| 2018-08-10 | 🏃 夏季运动会 | <img src="Summer_Games_Icon.jpg" width="16"> | 60货币（24份） | ¥120 |
-| 2018-08-10 | 🏃 夏季运动会 | <img src="Summer_Games_Icon.jpg" width="16"> | 30货币（11份） | ¥60 |
-| 2018-08-10 | 🏃 夏季运动会 | <img src="Summer_Games_Icon.jpg" width="16"> | 15货币（5份） | ¥30 |
+| 2018-08-10 | 🏃 夏季运动会 | <img src="Spray_Summer_Games.jpg" width="16"> | 60货币（24份） | ¥120 |
+| 2018-08-10 | 🏃 夏季运动会 | <img src="Spray_Summer_Games.jpg" width="16"> | 30货币（11份） | ¥60 |
+| 2018-08-10 | 🏃 夏季运动会 | <img src="Spray_Summer_Games.jpg" width="16"> | 15货币（5份） | ¥30 |
 | 2018-08-10 | 🎫 联赛代币 | <img src="owltoken.svg" width="16"> | 400枚 | ¥120 |
 | 2018-08-18 | 🎫 联赛代币 | <img src="owltoken.svg" width="16"> | 200枚 | ¥60 |
 | 2018-10-13 | 🎃 万圣节补给 | <img src="Halloween_Terror_Icon.jpg" width="16"> | 60货币（24份） | ¥120 |
-| 2018-12-15 | 🎄 圣诞补给 | <img src="Winter_Wonderland_Icon.png" width="16"> | 60货币（24份） | ¥120 |
+| 2018-12-15 | 🎄 圣诞补给 | <img src="Spray_Winter_Wonderland.png" width="16"> | 60货币（24份） | ¥120 |
 | **2018年合计** | | | | **¥1,302** |
 
 ### 消费亮点
