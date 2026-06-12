@@ -1,6 +1,6 @@
 ---
 title: "首轮战报：模型 vs 高僧 vs YOYO——谁才是真·预测之王？"
-date: 2026-06-12T10:00:00+08:00
+date: 2026-06-12T14:00:00+08:00
 draft: true
 author: AnfinsenYu
 categories: ["足球", "世界杯"]
