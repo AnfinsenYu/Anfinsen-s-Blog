@@ -9,9 +9,9 @@ description: "世界杯K/L组首轮战报：葡萄牙1-1刚果民主C罗3射0正
 showToc: true
 TocOpen: true
 cover:
-  image: "images/08-ronaldo-frustrated.jpg"
-  alt: "C罗赛后失落"
-  caption: "C罗3射0正，大赛连续10场0球！"
+  image: "images/cover.jpg"
+  alt: "葡萄牙1-1刚果民主"
+  caption: "C罗梦碎！葡萄牙1-1刚果民主，高僧精准预言平局"
   relative: false
 ---
 
