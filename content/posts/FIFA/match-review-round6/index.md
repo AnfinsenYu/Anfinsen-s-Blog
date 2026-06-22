@@ -10,8 +10,8 @@ showToc: true
 TocOpen: true
 cover:
   image: "images/cover.jpg"
-  alt: "荷兰5-1瑞典"
-  caption: "荷兰5-1屠杀瑞典！布罗比双响+加克波双响，橙色风暴席卷F组"
+  alt: "佛得角世界杯黑马"
+  caption: "佛得角：本届世界杯第一黑马！连续逼平西班牙+乌拉圭"
   relative: false
 ---
 
