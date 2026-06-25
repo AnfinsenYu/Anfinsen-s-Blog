@@ -53,4 +53,4 @@ showToc: false
 
 感谢你来到我的博客！如果你对我的文章有任何想法或建议，欢迎通过上面的方式联系我。💬
 
-希望我们都能在技术的道路上不断进步，共同成长。<a href="/posts/claude-and-me/">🌟</a>
+希望我们都能在技术的道路上不断进步，共同成长。<a href="https://anfinsenyu.github.io/Anfinsen-s-Blog/posts/claude-and-me/">🌟</a>
