@@ -25,6 +25,15 @@ showToc: false
   --border-color: #e0e0e0;
   --shadow-color: rgba(0,0,0,0.1);
 }
+:root[data-theme="dark"] {
+  --bg-primary: #1e1e2e;
+  --bg-secondary: #2a2a3a;
+  --bg-hover: #333344;
+  --text-primary: #e0e0e0;
+  --text-secondary: #aaaaaa;
+  --border-color: #444466;
+  --shadow-color: rgba(0,0,0,0.3);
+}
 .tab-container {
   margin: 20px 0;
 }
