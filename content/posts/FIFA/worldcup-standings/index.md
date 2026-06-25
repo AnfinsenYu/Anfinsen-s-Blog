@@ -18,6 +18,15 @@ showToc: false
 ---
 
 <style>
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-hover: #f0f0f0;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+  --shadow-color: rgba(0,0,0,0.1);
+}
 .tab-container {
   margin: 20px 0;
 }
@@ -28,9 +37,10 @@ showToc: false
   flex-wrap: wrap;
   position: sticky;
   top: 0;
-  background: white;
+  background: var(--bg-primary);
   padding: 10px 0;
   z-index: 100;
+  border-bottom: 1px solid var(--border-color);
 }
 .tab-btn {
   padding: 10px 16px;
@@ -40,8 +50,8 @@ showToc: false
   font-size: 14px;
   font-weight: bold;
   transition: all 0.3s ease;
-  background: #e0e0e0;
-  color: #333;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   white-space: nowrap;
 }
 .tab-btn.active {
@@ -69,12 +79,13 @@ showToc: false
   -webkit-overflow-scrolling: touch;
   margin: 15px 0;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px var(--shadow-color);
+  background: var(--bg-primary);
 }
 table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: var(--bg-primary);
   min-width: 500px;
 }
 th {
@@ -87,10 +98,11 @@ th {
 td {
   padding: 10px 8px;
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
 }
 tr:hover {
-  background: #f5f5f5;
+  background: var(--bg-hover);
 }
 .status-badge {
   display: inline-block;
@@ -123,6 +135,36 @@ tr:hover {
   border-radius: 8px;
   margin: 20px 0 10px 0;
   font-weight: bold;
+}
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #2d2d44;
+    --bg-hover: #3d3d5c;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --border-color: #3d3d5c;
+    --shadow-color: rgba(0,0,0,0.3);
+  }
+  .tab-buttons {
+    background: var(--bg-primary);
+    border-bottom-color: var(--border-color);
+  }
+  .tab-btn {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+  .table-wrapper {
+    background: var(--bg-primary);
+  }
+  table {
+    background: var(--bg-primary);
+  }
+  td {
+    color: var(--text-primary);
+    border-bottom-color: var(--border-color);
+  }
 }
 /* 移动端适配 */
 @media (max-width: 768px) {
