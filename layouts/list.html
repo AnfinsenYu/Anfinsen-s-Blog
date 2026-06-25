@@ -109,6 +109,9 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
+{{/* 所有列表页面都过滤 private 文章 */}}
+{{- $pages = where $pages "Params.private" "!=" "true" }}
+
 {{/* 分离置顶和普通文章 */}}
 {{- $pinned := where $pages "Params.pinned" true }}
 {{- $pinned = $pinned.ByDate.Reverse }}

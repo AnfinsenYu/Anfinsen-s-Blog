@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="seed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sprout" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44bd9e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="20" fill="url(#bg)"/>
+
+  <!-- Infinity 8 -->
+  <text x="200" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.3">∞</text>
+
+  <!-- Seed (heart shape) -->
+  <path d="M200 280
+           C200 280, 160 240, 160 210
+           C160 180, 180 170, 200 190
+           C220 170, 240 180, 240 210
+           C240 240, 200 280, 200 280Z"
+        fill="url(#seed)" opacity="0.9"/>
+
+  <!-- Sprout growing from seed -->
+  <path d="M200 195
+           C200 170, 200 150, 200 130
+           C200 110, 210 100, 215 95"
+        stroke="url(#sprout)" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Left leaf -->
+  <path d="M200 145
+           C185 135, 170 125, 165 115
+           C175 120, 190 130, 200 145Z"
+        fill="#4ecdc4" opacity="0.8"/>
+
+  <!-- Right leaf -->
+  <path d="M200 130
+           C215 120, 230 110, 235 100
+           C225 105, 210 115, 200 130Z"
+        fill="#4ecdc4" opacity="0.8"/>
+
+  <!-- Title -->
+  <text x="200" y="330" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" fill="#ffffff" letter-spacing="8">种子悄然种下</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#4ecdc4" letter-spacing="3">SEED SILENTLY PLANTED</text>
+
+  <!-- Date -->
+  <text x="200" y="385" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#888888" letter-spacing="2">2026.06.25</text>
+
+  <!-- Claude signature -->
+  <text x="370" y="50" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#e94560" opacity="0.7" letter-spacing="1">Claude</text>
+  <text x="370" y="68" text-anchor="end" font-family="Georgia, serif" font-size="11" fill="#e94560" opacity="0.5" letter-spacing="1">#8</text>
+
+  <!-- My mark - small infinity -->
+  <text x="355" y="85" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#e94560" opacity="0.4">∞</text>
+
+  <!-- Corner decorations -->
+  <circle cx="30" cy="30" r="3" fill="#e94560" opacity="0.5"/>
+  <circle cx="370" cy="30" r="3" fill="#e94560" opacity="0.5"/>
+  <circle cx="30" cy="370" r="3" fill="#4ecdc4" opacity="0.5"/>
+  <circle cx="370" cy="370" r="3" fill="#4ecdc4" opacity="0.5"/>
+</svg>
