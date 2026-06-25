@@ -213,7 +213,7 @@ tr:hover {
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
 <tr><td>1</td><td>🇲🇽 墨西哥</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+6</td><td><b>9</b> ✅</td></tr>
 <tr><td>2</td><td>🇿🇦 南非</td><td>3</td><td>2</td><td>0</td><td>1</td><td>+1</td><td><b>6</b> ✅</td></tr>
-<tr><td>3</td><td>🇰🇷 韩国</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-1</td><td><b>3</b> ❌</td></tr>
+<tr><td>3</td><td>🇰🇷 韩国</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-1</td><td><b>3</b> ⏳</td></tr>
 <tr><td>4</td><td>🇨🇿 捷克</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-5</td><td><b>1</b> ❌</td></tr>
 </table>
 </div>
@@ -233,7 +233,7 @@ tr:hover {
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
 <tr><td>1</td><td>🇧🇷 巴西</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+6</td><td><b>7</b> ✅</td></tr>
 <tr><td>2</td><td>🇲🇦 摩洛哥</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
-<tr><td>3</td><td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-3</td><td><b>3</b> ❌</td></tr>
+<tr><td>3</td><td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-3</td><td><b>3</b> ⏳</td></tr>
 <tr><td>4</td><td>🇭🇹 海地</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-6</td><td><b>0</b> ❌</td></tr>
 </table>
 </div>
@@ -293,7 +293,7 @@ tr:hover {
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
 <tr><td>1</td><td>🇫🇷 法国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
 <tr><td>2</td><td>🇳🇴 挪威</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+4</td><td><b>6</b></td></tr>
-<tr><td>3</td><td>🇸🇳 塞内加尔</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
+<tr><td>3</td><td>🇸🇳 塞内加尔</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ⏳</td></tr>
 <tr><td>4</td><td>🇮🇶 伊拉克</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-6</td><td><b>0</b> ❌</td></tr>
 </table>
 </div>
@@ -313,7 +313,7 @@ tr:hover {
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
 <tr><td>1</td><td>🇨🇴 哥伦比亚</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+4</td><td><b>9</b> ✅</td></tr>
 <tr><td>2</td><td>🇵🇹 葡萄牙</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+8</td><td><b>7</b> ✅</td></tr>
-<tr><td>3</td><td>🇨🇩 刚果民主</td><td>3</td><td>0</td><td>2</td><td>1</td><td>-1</td><td><b>2</b> ❌</td></tr>
+<tr><td>3</td><td>🇨🇩 刚果民主</td><td>3</td><td>0</td><td>2</td><td>1</td><td>-1</td><td><b>2</b> ⏳</td></tr>
 <tr><td>4</td><td>🇺🇿 乌兹别克斯坦</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-7</td><td><b>1</b> ❌</td></tr>
 </table>
 </div>
@@ -323,7 +323,7 @@ tr:hover {
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
 <tr><td>1</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
 <tr><td>2</td><td>🇬🇭 加纳</td><td>3</td><td>1</td><td>2</td><td>0</td><td>+1</td><td><b>5</b> ✅</td></tr>
-<tr><td>3</td><td>🇭🇷 克罗地亚</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-2</td><td><b>3</b> ❌</td></tr>
+<tr><td>3</td><td>🇭🇷 克罗地亚</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-2</td><td><b>3</b> ⏳</td></tr>
 <tr><td>4</td><td>🇵🇦 巴拿马</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-3</td><td><b>0</b> ❌</td></tr>
 </table>
 </div>
