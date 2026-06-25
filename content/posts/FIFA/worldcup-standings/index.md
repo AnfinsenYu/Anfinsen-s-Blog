@@ -18,12 +18,15 @@ showToc: false
 <style>
 :root {
   --bg-primary: #ffffff;
-  --bg-secondary: #f5f5f5;
+  --bg-secondary: #f8f9fa;
   --bg-hover: #f0f0f0;
   --text-primary: #333333;
   --text-secondary: #666666;
-  --border-color: #e0e0e0;
-  --shadow-color: rgba(0,0,0,0.1);
+  --border-color: #e8e8e8;
+  --shadow-color: rgba(0,0,0,0.06);
+  --accent-from: #7c8cf8;
+  --accent-to: #9b7eda;
+  --accent-shadow: rgba(124, 140, 248, 0.25);
 }
 :root[data-theme="dark"] {
   --bg-primary: #1e1e2e;
@@ -33,6 +36,9 @@ showToc: false
   --text-secondary: #aaaaaa;
   --border-color: #444466;
   --shadow-color: rgba(0,0,0,0.3);
+  --accent-from: #667eea;
+  --accent-to: #764ba2;
+  --accent-shadow: rgba(102, 126, 234, 0.4);
 }
 .tab-container {
   margin: 20px 0;
@@ -62,9 +68,9 @@ showToc: false
   white-space: nowrap;
 }
 .tab-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-from) 0%, var(--accent-to) 100%);
   color: white;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 15px var(--accent-shadow);
 }
 .tab-btn:hover {
   transform: translateY(-2px);
@@ -96,7 +102,7 @@ table {
   min-width: 500px;
 }
 th {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-from) 0%, var(--accent-to) 100%);
   color: white;
   padding: 12px 8px;
   text-align: center;
@@ -136,7 +142,7 @@ tr:hover {
   50% { opacity: 0.7; }
 }
 .group-title {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-from) 0%, var(--accent-to) 100%);
   color: white;
   padding: 10px 15px;
   border-radius: 8px;
