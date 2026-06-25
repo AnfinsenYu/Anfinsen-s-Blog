@@ -211,28 +211,24 @@ tr:hover {
   <div id="standings" class="tab-content active">
     <div class="group-title">A组（第3轮进行中）</div>
     <div class="table-wrapper">
-      <div class="table-wrapper">
       <table>
         <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
         <tr><td>1</td><td>🇲🇽 墨西哥</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+3</td><td><b>6</b></td></tr>
         <tr><td>2</td><td>🇰🇷 韩国</td><td>2</td><td>1</td><td>0</td><td>1</td><td>+1</td><td><b>3</b></td></tr>
         <tr><td>3</td><td>🇨🇿 捷克</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
         <tr><td>4</td><td>🇿🇦 南非</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
-        </table>
-    </div>
+      </table>
     </div>
 
     <div class="group-title">B组（已结束）</div>
     <div class="table-wrapper">
-      <div class="table-wrapper">
       <table>
         <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
         <tr><td>1</td><td>🇨🇭 瑞士</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+5</td><td><b>7</b> ✅</td></tr>
         <tr><td>2</td><td>🇨🇦 加拿大</td><td>3</td><td>1</td><td>1</td><td>1</td><td>+7</td><td><b>4</b> ✅</td></tr>
         <tr><td>3</td><td>🇧🇦 波黑</td><td>3</td><td>1</td><td>1</td><td>1</td><td>-1</td><td><b>4</b></td></tr>
         <tr><td>4</td><td>🇶🇦 卡塔尔</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-8</td><td><b>1</b> ❌</td></tr>
-        </table>
-    </div>
+      </table>
     </div>
 
     <div class="group-title">C组（已结束）</div>
