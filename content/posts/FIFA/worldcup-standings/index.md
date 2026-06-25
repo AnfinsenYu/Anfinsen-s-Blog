@@ -207,14 +207,14 @@ tr:hover {
 
 <!-- 积分榜 -->
 <div id="standings" class="tab-content active">
-<div class="group-title">A组（第3轮进行中）</div>
+<div class="group-title">A组（已结束）</div>
 <div class="table-wrapper">
 <table>
 <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-<tr><td>1</td><td>🇲🇽 墨西哥</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+3</td><td><b>6</b></td></tr>
-<tr><td>2</td><td>🇰🇷 韩国</td><td>2</td><td>1</td><td>0</td><td>1</td><td>+1</td><td><b>3</b></td></tr>
-<tr><td>3</td><td>🇨🇿 捷克</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
-<tr><td>4</td><td>🇿🇦 南非</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
+<tr><td>1</td><td>🇲🇽 墨西哥</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+6</td><td><b>9</b> ✅</td></tr>
+<tr><td>2</td><td>🇿🇦 南非</td><td>3</td><td>2</td><td>0</td><td>1</td><td>+1</td><td><b>6</b> ✅</td></tr>
+<tr><td>3</td><td>🇰🇷 韩国</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-1</td><td><b>3</b> ❌</td></tr>
+<tr><td>4</td><td>🇨🇿 捷克</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-5</td><td><b>1</b> ❌</td></tr>
 </table>
 </div>
 <div class="group-title">B组（已结束）</div>
@@ -362,8 +362,8 @@ tr:hover {
 <tr><td>6/25</td><td>03:00</td><td>🇨🇭 瑞士 vs 🇨🇦 加拿大</td><td>B组</td><td><span class="status-badge status-done">2-1</span></td></tr>
 <tr><td>6/25</td><td>06:00</td><td>🇧🇷 巴西 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>C组</td><td><span class="status-badge status-done">3-0</span></td></tr>
 <tr><td>6/25</td><td>06:00</td><td>🇲🇦 摩洛哥 vs 🇭🇹 海地</td><td>C组</td><td><span class="status-badge status-done">4-2</span></td></tr>
-<tr><td>6/26</td><td>03:00</td><td>🇲🇽 墨西哥 vs 🇰🇷 韩国</td><td>A组</td><td><span class="status-badge status-live">进行中</span></td></tr>
-<tr><td>6/26</td><td>03:00</td><td>🇨🇿 捷克 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-live">进行中</span></td></tr>
+<tr><td>6/26</td><td>03:00</td><td>🇲🇽 墨西哥 vs 🇰🇷 韩国</td><td>A组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+<tr><td>6/26</td><td>03:00</td><td>🇨🇿 捷克 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-done">0-3</span></td></tr>
 <tr><td>6/26</td><td>04:00</td><td>🇪🇨 厄瓜多尔 vs 🇩🇪 德国</td><td>E组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
 <tr><td>6/26</td><td>04:00</td><td>🇨🇼 库拉索 vs 🇨🇮 科特迪瓦</td><td>E组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
 <tr><td>6/26</td><td>07:00</td><td>🇹🇳 突尼斯 vs 🇳🇱 荷兰</td><td>F组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
