@@ -1,266 +1,346 @@
 ---
-title: "2026世界杯实时积分榜 | 射手榜 | 助攻榜"
+title: "2026世界杯实时数据"
 date: 2026-06-25T12:00:00+08:00
 draft: false
 author: AnfinsenYu
 categories: ["足球", "世界杯"]
 tags: ["世界杯", "积分榜", "射手榜", "助攻榜", "赛程"]
 description: "2026美加墨世界杯实时积分榜、完整赛程、射手榜、助攻榜，数据实时更新"
-showToc: true
-TocOpen: true
+showToc: false
 ---
 
-# 2026世界杯实时积分榜
+# 2026世界杯实时数据
 
 > 📊 **数据更新至**：2026年6月25日 | 🏆 **赛事阶段**：小组赛第3轮进行中
 >
-> 📱 **数据来源**：[小红书世界杯专题](https://www.xiaohongshu.com/worldcup26/fixtures)
+> 📱 **数据来源**：[小红书世界杯专题](https://www.xiaohongshu.com/worldcup26/fixtures) | [直播吧数据频道](https://data.zhibo8.cc/pc_main_data/)
 
 ---
 
-## 📅 完整赛程
+<style>
+.tab-container {
+  margin: 20px 0;
+}
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.tab-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  background: #e0e0e0;
+  color: #333;
+}
+.tab-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+.tab-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.tab-content {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+.tab-content.active {
+  display: block;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 8px;
+  text-align: center;
+  font-weight: bold;
+}
+td {
+  padding: 10px 8px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+tr:hover {
+  background: #f5f5f5;
+}
+.status-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.status-live {
+  background: #ff4444;
+  color: white;
+  animation: pulse 1.5s infinite;
+}
+.status-done {
+  background: #4CAF50;
+  color: white;
+}
+.status-upcoming {
+  background: #ff9800;
+  color: white;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.group-title {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+</style>
 
-| 日期 | 时间 | 比赛 | 组别 | 状态 |
-|------|------|------|------|------|
-| 6/11 | 09:00 | 🇲🇽 墨西哥 vs 🇿🇦 南非 | A组 | ✅ 2-0 |
-| 6/11 | 12:00 | 🇰🇷 韩国 vs 🇨🇿 捷克 | A组 | ✅ 2-1 |
-| 6/12 | 03:00 | 🇨🇦 加拿大 vs 🇧🇦 波黑 | B组 | ✅ 1-1 |
-| 6/12 | 06:00 | 🇺🇸 美国 vs 🇵🇾 巴拉圭 | B组 | ✅ 4-1 |
-| 6/13 | 03:00 | 🇶🇦 卡塔尔 vs 🇨🇭 瑞士 | C组 | ✅ 1-1 |
-| 6/13 | 06:00 | 🇧🇷 巴西 vs 🇲🇦 摩洛哥 | C组 | ✅ 1-1 |
-| 6/13 | 09:00 | 🇭🇹 海地 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰 | C组 | ✅ 0-1 |
-| 6/14 | 03:00 | 🇦🇺 澳大利亚 vs 🇹🇷 土耳其 | D组 | ✅ 2-0 |
-| 6/14 | 06:00 | 🇨🇮 科特迪瓦 vs 🇪🇨 厄瓜多尔 | E组 | ✅ 1-0 |
-| 6/14 | 09:00 | 🇩🇪 德国 vs 🇨🇼 库拉索 | E组 | ✅ 7-1 |
-| 6/15 | 03:00 | 🇳🇱 荷兰 vs 🇯🇵 日本 | F组 | ✅ 2-2 |
-| 6/15 | 06:00 | 🇸🇪 瑞典 vs 🇹🇳 突尼斯 | F组 | ✅ 5-1 |
-| 6/16 | 03:00 | 🇪🇸 西班牙 vs 🇨🇻 佛得角 | H组 | ✅ 0-0 |
-| 6/16 | 06:00 | 🇧🇪 比利时 vs 🇪🇬 埃及 | G组 | ✅ 1-1 |
-| 6/16 | 09:00 | 🇸🇦 沙特 vs 🇺🇾 乌拉圭 | H组 | ✅ 1-1 |
-| 6/17 | 00:00 | 🇮🇷 伊朗 vs 🇳🇿 新西兰 | G组 | ✅ 2-2 |
-| 6/17 | 03:00 | 🇫🇷 法国 vs 🇸🇳 塞内加尔 | I组 | ✅ 3-1 |
-| 6/17 | 06:00 | 🇮🇶 伊拉克 vs 🇳🇴 挪威 | I组 | ✅ 1-4 |
-| 6/17 | 09:00 | 🇦🇷 阿根廷 vs 🇩🇿 阿尔及利亚 | J组 | ✅ 3-0 |
-| 6/18 | 03:00 | 🇦🇹 奥地利 vs 🇯🇴 约旦 | J组 | ✅ 3-1 |
-| 6/18 | 06:00 | 🇵🇹 葡萄牙 vs 🇨🇩 刚果民主 | K组 | ✅ 1-1 |
-| 6/18 | 09:00 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇭🇷 克罗地亚 | L组 | ✅ 4-2 |
-| 6/19 | 00:00 | 🇬🇭 加纳 vs 🇵🇦 巴拿马 | L组 | ✅ 1-0 |
-| 6/19 | 03:00 | 🇺🇿 乌兹别克斯坦 vs 🇨🇴 哥伦比亚 | K组 | ✅ 1-3 |
-| 6/19 | 06:00 | 🇨🇿 捷克 vs 🇿🇦 南非 | A组 | ✅ 1-1 |
-| 6/19 | 09:00 | 🇨🇭 瑞士 vs 🇧🇦 波黑 | B组 | ✅ 1-1 |
-| 6/20 | 03:00 | 🇨🇦 加拿大 vs 🇶🇦 卡塔尔 | B组 | ✅ 6-0 |
-| 6/20 | 06:00 | 🇲🇽 墨西哥 vs 🇰🇷 韩国 | A组 | ✅ 0-2 |
-| 6/20 | 09:00 | 🇺🇸 美国 vs 🇦🇺 澳大利亚 | D组 | ✅ 2-1 |
-| 6/21 | 03:00 | 🇲🇦 摩洛哥 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰 | C组 | ✅ 1-0 |
-| 6/21 | 06:00 | 🇧🇷 巴西 vs 🇭🇹 海地 | C组 | ✅ 3-0 |
-| 6/21 | 09:00 | 🇹🇷 土耳其 vs 🇵🇾 巴拉圭 | D组 | ✅ 0-2 |
-| 6/22 | 03:00 | 🇳🇱 荷兰 vs 🇸🇪 瑞典 | F组 | ✅ 5-1 |
-| 6/22 | 06:00 | 🇩🇪 德国 vs 🇨🇮 科特迪瓦 | E组 | ✅ 3-0 |
-| 6/22 | 09:00 | 🇪🇨 厄瓜多尔 vs 🇨🇼 库拉索 | E组 | ✅ 0-0 |
-| 6/22 | 12:00 | 🇹🇳 突尼斯 vs 🇯🇵 日本 | F组 | ✅ 0-2 |
-| 6/23 | 03:00 | 🇪🇸 西班牙 vs 🇸🇦 沙特 | H组 | ✅ 3-0 |
-| 6/23 | 06:00 | 🇧🇪 比利时 vs 🇮🇷 伊朗 | G组 | ✅ 0-0 |
-| 6/23 | 09:00 | 🇺🇾 乌拉圭 vs 🇨🇻 佛得角 | H组 | ✅ 2-2 |
-| 6/24 | 00:00 | 🇳🇿 新西兰 vs 🇪🇬 埃及 | G组 | ✅ 0-1 |
-| 6/24 | 03:00 | 🇫🇷 法国 vs 🇮🇶 伊拉克 | I组 | ✅ 3-0 |
-| 6/24 | 06:00 | 🇳🇴 挪威 vs 🇸🇳 塞内加尔 | I组 | ✅ 3-2 |
-| 6/24 | 09:00 | 🇦🇷 阿根廷 vs 🇦🇹 奥地利 | J组 | ✅ 2-0 |
-| 6/24 | 12:00 | 🇯🇴 约旦 vs 🇩🇿 阿尔及利亚 | J组 | ✅ 1-2 |
-| 6/25 | 03:00 | 🇵🇹 葡萄牙 vs 🇺🇿 乌兹别克斯坦 | K组 | ✅ 5-0 |
-| 6/25 | 03:00 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇬🇭 加纳 | L组 | ✅ 0-0 |
-| 6/25 | 06:00 | 🇭🇷 克罗地亚 vs 🇵🇦 巴拿马 | L组 | ✅ 1-0 |
-| 6/25 | 06:00 | 🇨🇴 哥伦比亚 vs 🇨🇩 刚果民主 | K组 | ✅ 1-0 |
-| 6/25 | 03:00 | 🇧🇦 波黑 vs 🇶🇦 卡塔尔 | B组 | ✅ 3-1 |
-| 6/25 | 03:00 | 🇨🇭 瑞士 vs 🇨🇦 加拿大 | B组 | ✅ 2-1 |
-| 6/25 | 06:00 | 🇧🇷 巴西 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰 | C组 | ✅ 3-0 |
-| 6/25 | 06:00 | 🇲🇦 摩洛哥 vs 🇭🇹 海地 | C组 | ✅ 4-2 |
-| 6/26 | 03:00 | 🇲🇽 墨西哥 vs 🇰🇷 韩国 | A组 | ⏳ 进行中 |
-| 6/26 | 03:00 | 🇨🇿 捷克 vs 🇿🇦 南非 | A组 | ⏳ 进行中 |
-| 6/26 | 04:00 | 🇪🇨 厄瓜多尔 vs 🇩🇪 德国 | E组 | ⏳ 待赛 |
-| 6/26 | 04:00 | 🇨🇼 库拉索 vs 🇨🇮 科特迪瓦 | E组 | ⏳ 待赛 |
-| 6/26 | 07:00 | 🇹🇳 突尼斯 vs 🇳🇱 荷兰 | F组 | ⏳ 待赛 |
-| 6/26 | 07:00 | 🇯🇵 日本 vs 🇸🇪 瑞典 | F组 | ⏳ 待赛 |
-| 6/26 | 10:00 | 🇹🇷 土耳其 vs 🇺🇸 美国 | D组 | ⏳ 待赛 |
-| 6/26 | 10:00 | 🇵🇾 巴拉圭 vs 🇦🇺 澳大利亚 | D组 | ⏳ 待赛 |
-| 6/27 | 03:00 | 🇧🇪 比利时 vs 🇳🇿 新西兰 | G组 | ⏳ 待赛 |
-| 6/27 | 03:00 | 🇪🇬 埃及 vs 🇮🇷 伊朗 | G组 | ⏳ 待赛 |
-| 6/27 | 06:00 | 🇪🇸 西班牙 vs 🇺🇾 乌拉圭 | H组 | ⏳ 待赛 |
-| 6/27 | 06:00 | 🇨🇻 佛得角 vs 🇸🇦 沙特 | H组 | ⏳ 待赛 |
-| 6/27 | 09:00 | 🇫🇷 法国 vs 🇳🇴 挪威 | I组 | ⏳ 待赛 |
-| 6/27 | 09:00 | 🇮🇶 伊拉克 vs 🇸🇳 塞内加尔 | I组 | ⏳ 待赛 |
-| 6/28 | 03:00 | 🇦🇷 阿根廷 vs 🇯🇴 约旦 | J组 | ⏳ 待赛 |
-| 6/28 | 03:00 | 🇦🇹 奥地利 vs 🇩🇿 阿尔及利亚 | J组 | ⏳ 待赛 |
-| 6/28 | 06:00 | 🇵🇹 葡萄牙 vs 🇨🇴 哥伦比亚 | K组 | ⏳ 待赛 |
-| 6/28 | 06:00 | 🇨🇩 刚果民主 vs 🇺🇿 乌兹别克斯坦 | K组 | ⏳ 待赛 |
-| 6/28 | 09:00 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇭🇷 克罗地亚 | L组 | ⏳ 待赛 |
-| 6/28 | 09:00 | 🇬🇭 加纳 vs 🇵🇦 巴拿马 | L组 | ⏳ 待赛 |
+<div class="tab-container">
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="showTab('standings')">📊 积分榜</button>
+    <button class="tab-btn" onclick="showTab('schedule')">📅 赛程</button>
+    <button class="tab-btn" onclick="showTab('scorers')">⚽ 射手榜</button>
+    <button class="tab-btn" onclick="showTab('assists')">🎯 助攻榜</button>
+  </div>
 
----
+  <!-- 积分榜 -->
+  <div id="standings" class="tab-content active">
+    <div class="group-title">A组（第3轮进行中）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇲🇽 墨西哥</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+3</td><td><b>6</b></td></tr>
+      <tr><td>2</td><td>🇰🇷 韩国</td><td>2</td><td>1</td><td>0</td><td>1</td><td>+1</td><td><b>3</b></td></tr>
+      <tr><td>3</td><td>🇨🇿 捷克</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
+      <tr><td>4</td><td>🇿🇦 南非</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
+    </table>
 
-## 🏆 小组积分榜
+    <div class="group-title">B组（已结束）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇨🇭 瑞士</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+5</td><td><b>7</b> ✅</td></tr>
+      <tr><td>2</td><td>🇨🇦 加拿大</td><td>3</td><td>1</td><td>1</td><td>1</td><td>+7</td><td><b>4</b> ✅</td></tr>
+      <tr><td>3</td><td>🇧🇦 波黑</td><td>3</td><td>1</td><td>1</td><td>1</td><td>-1</td><td><b>4</b></td></tr>
+      <tr><td>4</td><td>🇶🇦 卡塔尔</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-8</td><td><b>1</b> ❌</td></tr>
+    </table>
 
-### A组（第2轮后·第3轮进行中）
+    <div class="group-title">C组（已结束）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇧🇷 巴西</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+6</td><td><b>7</b> ✅</td></tr>
+      <tr><td>2</td><td>🇲🇦 摩洛哥</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
+      <tr><td>3</td><td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-3</td><td><b>3</b> ❌</td></tr>
+      <tr><td>4</td><td>🇭🇹 海地</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-6</td><td><b>0</b> ❌</td></tr>
+    </table>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇲🇽 墨西哥 | 2 | 2 | 0 | 0 | +3 | **6** | ⏳ 第3轮 |
-| 2 | 🇰🇷 韩国 | 2 | 1 | 0 | 1 | +1 | **3** | ⏳ 第3轮 |
-| 3 | 🇨🇿 捷克 | 2 | 0 | 1 | 1 | -2 | **1** | ⏳ 第3轮 |
-| 4 | 🇿🇦 南非 | 2 | 0 | 1 | 1 | -2 | **1** | ⏳ 第3轮 |
+    <div class="group-title">D组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇺🇸 美国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+      <tr><td>2</td><td>🇦🇺 澳大利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+      <tr><td>3</td><td>🇵🇾 巴拉圭</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
+      <tr><td>4</td><td>🇹🇷 土耳其</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b></td></tr>
+    </table>
 
-### B组（最终排名）
+    <div class="group-title">E组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇩🇪 德国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+7</td><td><b>6</b></td></tr>
+      <tr><td>2</td><td>🇨🇮 科特迪瓦</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+      <tr><td>3</td><td>🇪🇨 厄瓜多尔</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-1</td><td><b>1</b></td></tr>
+      <tr><td>4</td><td>🇨🇼 库拉索</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-8</td><td><b>1</b></td></tr>
+    </table>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇨🇭 瑞士 | 3 | 2 | 1 | 0 | +5 | **7** | ✅ 小组第一出线 |
-| 2 | 🇨🇦 加拿大 | 3 | 1 | 1 | 1 | +7 | **4** | ✅ 小组第二出线 |
-| 3 | 🇧🇦 波黑 | 3 | 1 | 1 | 1 | -1 | **4** | ⏳ 待定 |
-| 4 | 🇶🇦 卡塔尔 | 3 | 0 | 1 | 2 | -8 | **1** | ❌ 出局 |
+    <div class="group-title">F组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇳🇱 荷兰</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+      <tr><td>2</td><td>🇯🇵 日本</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+      <tr><td>3</td><td>🇸🇪 瑞典</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+      <tr><td>4</td><td>🇹🇳 突尼斯</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-8</td><td><b>0</b></td></tr>
+    </table>
 
-### C组（最终排名）
+    <div class="group-title">G组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇪🇬 埃及</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+2</td><td><b>4</b></td></tr>
+      <tr><td>2</td><td>🇧🇪 比利时</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+      <tr><td>3</td><td>🇮🇷 伊朗</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+      <tr><td>4</td><td>🇳🇿 新西兰</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
+    </table>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇧🇷 巴西 | 3 | 2 | 1 | 0 | +6 | **7** | ✅ 小组第一出线 |
-| 2 | 🇲🇦 摩洛哥 | 3 | 2 | 1 | 0 | +3 | **7** | ✅ 小组第二出线 |
-| 3 | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰 | 3 | 1 | 0 | 2 | -3 | **3** | ❌ 出局 |
-| 4 | 🇭🇹 海地 | 3 | 0 | 0 | 3 | -6 | **0** | ❌ 出局 |
+    <div class="group-title">H组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇪🇸 西班牙</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+      <tr><td>2</td><td>🇺🇾 乌拉圭</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+      <tr><td>3</td><td>🇨🇻 佛得角</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+      <tr><td>4</td><td>🇸🇦 沙特</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-4</td><td><b>1</b></td></tr>
+    </table>
 
-### D组（第2轮后）
+    <div class="group-title">I组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇫🇷 法国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+      <tr><td>2</td><td>🇳🇴 挪威</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+4</td><td><b>6</b></td></tr>
+      <tr><td>3</td><td>🇸🇳 塞内加尔</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
+      <tr><td>4</td><td>🇮🇶 伊拉克</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-6</td><td><b>0</b> ❌</td></tr>
+    </table>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇺🇸 美国 | 2 | 2 | 0 | 0 | +5 | **6** | ⏳ 第3轮 |
-| 2 | 🇦🇺 澳大利亚 | 2 | 1 | 0 | 1 | 0 | **3** | ⏳ 第3轮 |
-| 3 | 🇵🇾 巴拉圭 | 2 | 1 | 0 | 1 | -2 | **3** | ⏳ 第3轮 |
-| 4 | 🇹🇷 土耳其 | 2 | 0 | 0 | 2 | -3 | **0** | ⏳ 第3轮 |
+    <div class="group-title">J组（第3轮待赛）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇦🇷 阿根廷</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+      <tr><td>2</td><td>🇦🇹 奥地利</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+      <tr><td>3</td><td>🇩🇿 阿尔及利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
+      <tr><td>4</td><td>🇯🇴 约旦</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
+    </table>
 
-### E组（第2轮后）
+    <div class="group-title">K组（已结束）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🇨🇴 哥伦比亚</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+4</td><td><b>9</b> ✅</td></tr>
+      <tr><td>2</td><td>🇵🇹 葡萄牙</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+8</td><td><b>7</b> ✅</td></tr>
+      <tr><td>3</td><td>🇨🇩 刚果民主</td><td>3</td><td>0</td><td>2</td><td>1</td><td>-1</td><td><b>2</b> ❌</td></tr>
+      <tr><td>4</td><td>🇺🇿 乌兹别克斯坦</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-7</td><td><b>1</b> ❌</td></tr>
+    </table>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇩🇪 德国 | 2 | 2 | 0 | 0 | +7 | **6** | ⏳ 第3轮 |
-| 2 | 🇨🇮 科特迪瓦 | 2 | 1 | 0 | 1 | 0 | **3** | ⏳ 第3轮 |
-| 3 | 🇪🇨 厄瓜多尔 | 2 | 0 | 1 | 1 | -1 | **1** | ⏳ 第3轮 |
-| 4 | 🇨🇼 库拉索 | 2 | 0 | 1 | 1 | -8 | **1** | ⏳ 第3轮 |
+    <div class="group-title">L组（已结束）</div>
+    <table>
+      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+      <tr><td>1</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
+      <tr><td>2</td><td>🇬🇭 加纳</td><td>3</td><td>1</td><td>2</td><td>0</td><td>+1</td><td><b>5</b> ✅</td></tr>
+      <tr><td>3</td><td>🇭🇷 克罗地亚</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-2</td><td><b>3</b> ❌</td></tr>
+      <tr><td>4</td><td>🇵🇦 巴拿马</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-3</td><td><b>0</b> ❌</td></tr>
+    </table>
+  </div>
 
-### F组（第2轮后）
+  <!-- 赛程 -->
+  <div id="schedule" class="tab-content">
+    <table>
+      <tr><th>日期</th><th>时间</th><th>比赛</th><th>组别</th><th>状态</th></tr>
+      <tr><td>6/11</td><td>09:00</td><td>🇲🇽 墨西哥 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-done">2-0</span></td></tr>
+      <tr><td>6/11</td><td>12:00</td><td>🇰🇷 韩国 vs 🇨🇿 捷克</td><td>A组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+      <tr><td>6/12</td><td>03:00</td><td>🇨🇦 加拿大 vs 🇧🇦 波黑</td><td>B组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/12</td><td>06:00</td><td>🇺🇸 美国 vs 🇵🇾 巴拉圭</td><td>B组</td><td><span class="status-badge status-done">4-1</span></td></tr>
+      <tr><td>6/13</td><td>03:00</td><td>🇶🇦 卡塔尔 vs 🇨🇭 瑞士</td><td>C组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/13</td><td>06:00</td><td>🇧🇷 巴西 vs 🇲🇦 摩洛哥</td><td>C组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/13</td><td>09:00</td><td>🇭🇹 海地 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>C组</td><td><span class="status-badge status-done">0-1</span></td></tr>
+      <tr><td>6/14</td><td>03:00</td><td>🇦🇺 澳大利亚 vs 🇹🇷 土耳其</td><td>D组</td><td><span class="status-badge status-done">2-0</span></td></tr>
+      <tr><td>6/14</td><td>06:00</td><td>🇨🇮 科特迪瓦 vs 🇪🇨 厄瓜多尔</td><td>E组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+      <tr><td>6/14</td><td>09:00</td><td>🇩🇪 德国 vs 🇨🇼 库拉索</td><td>E组</td><td><span class="status-badge status-done">7-1</span></td></tr>
+      <tr><td>6/15</td><td>03:00</td><td>🇳🇱 荷兰 vs 🇯🇵 日本</td><td>F组</td><td><span class="status-badge status-done">2-2</span></td></tr>
+      <tr><td>6/15</td><td>06:00</td><td>🇸🇪 瑞典 vs 🇹🇳 突尼斯</td><td>F组</td><td><span class="status-badge status-done">5-1</span></td></tr>
+      <tr><td>6/16</td><td>03:00</td><td>🇪🇸 西班牙 vs 🇨🇻 佛得角</td><td>H组</td><td><span class="status-badge status-done">0-0</span></td></tr>
+      <tr><td>6/16</td><td>06:00</td><td>🇧🇪 比利时 vs 🇪🇬 埃及</td><td>G组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/16</td><td>09:00</td><td>🇸🇦 沙特 vs 🇺🇾 乌拉圭</td><td>H组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/17</td><td>00:00</td><td>🇮🇷 伊朗 vs 🇳🇿 新西兰</td><td>G组</td><td><span class="status-badge status-done">2-2</span></td></tr>
+      <tr><td>6/17</td><td>03:00</td><td>🇫🇷 法国 vs 🇸🇳 塞内加尔</td><td>I组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+      <tr><td>6/17</td><td>06:00</td><td>🇮🇶 伊拉克 vs 🇳🇴 挪威</td><td>I组</td><td><span class="status-badge status-done">1-4</span></td></tr>
+      <tr><td>6/17</td><td>09:00</td><td>🇦🇷 阿根廷 vs 🇩🇿 阿尔及利亚</td><td>J组</td><td><span class="status-badge status-done">3-0</span></td></tr>
+      <tr><td>6/18</td><td>03:00</td><td>🇦🇹 奥地利 vs 🇯🇴 约旦</td><td>J组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+      <tr><td>6/18</td><td>06:00</td><td>🇵🇹 葡萄牙 vs 🇨🇩 刚果民主</td><td>K组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+      <tr><td>6/18</td><td>09:00</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇭🇷 克罗地亚</td><td>L组</td><td><span class="status-badge status-done">4-2</span></td></tr>
+      <tr><td>6/19</td><td>00:00</td><td>🇬🇭 加纳 vs 🇵🇦 巴拿马</td><td>L组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+      <tr><td>6/19</td><td>03:00</td><td>🇺🇿 乌兹别克斯坦 vs 🇨🇴 哥伦比亚</td><td>K组</td><td><span class="status-badge status-done">1-3</span></td></tr>
+      <tr><td>6/25</td><td>03:00</td><td>🇧🇦 波黑 vs 🇶🇦 卡塔尔</td><td>B组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+      <tr><td>6/25</td><td>03:00</td><td>🇨🇭 瑞士 vs 🇨🇦 加拿大</td><td>B组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+      <tr><td>6/25</td><td>06:00</td><td>🇧🇷 巴西 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>C组</td><td><span class="status-badge status-done">3-0</span></td></tr>
+      <tr><td>6/25</td><td>06:00</td><td>🇲🇦 摩洛哥 vs 🇭🇹 海地</td><td>C组</td><td><span class="status-badge status-done">4-2</span></td></tr>
+      <tr><td>6/26</td><td>03:00</td><td>🇲🇽 墨西哥 vs 🇰🇷 韩国</td><td>A组</td><td><span class="status-badge status-live">进行中</span></td></tr>
+      <tr><td>6/26</td><td>03:00</td><td>🇨🇿 捷克 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-live">进行中</span></td></tr>
+      <tr><td>6/26</td><td>04:00</td><td>🇪🇨 厄瓜多尔 vs 🇩🇪 德国</td><td>E组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/26</td><td>04:00</td><td>🇨🇼 库拉索 vs 🇨🇮 科特迪瓦</td><td>E组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/26</td><td>07:00</td><td>🇹🇳 突尼斯 vs 🇳🇱 荷兰</td><td>F组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/26</td><td>07:00</td><td>🇯🇵 日本 vs 🇸🇪 瑞典</td><td>F组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/26</td><td>10:00</td><td>🇹🇷 土耳其 vs 🇺🇸 美国</td><td>D组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/26</td><td>10:00</td><td>🇵🇾 巴拉圭 vs 🇦🇺 澳大利亚</td><td>D组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>03:00</td><td>🇧🇪 比利时 vs 🇳🇿 新西兰</td><td>G组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>03:00</td><td>🇪🇬 埃及 vs 🇮🇷 伊朗</td><td>G组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>06:00</td><td>🇪🇸 西班牙 vs 🇺🇾 乌拉圭</td><td>H组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>06:00</td><td>🇨🇻 佛得角 vs 🇸🇦 沙特</td><td>H组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>09:00</td><td>🇫🇷 法国 vs 🇳🇴 挪威</td><td>I组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/27</td><td>09:00</td><td>🇮🇶 伊拉克 vs 🇸🇳 塞内加尔</td><td>I组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>03:00</td><td>🇦🇷 阿根廷 vs 🇯🇴 约旦</td><td>J组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>03:00</td><td>🇦🇹 奥地利 vs 🇩🇿 阿尔及利亚</td><td>J组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>06:00</td><td>🇵🇹 葡萄牙 vs 🇨🇴 哥伦比亚</td><td>K组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>06:00</td><td>🇨🇩 刚果民主 vs 🇺🇿 乌兹别克斯坦</td><td>K组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>09:00</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇭🇷 克罗地亚</td><td>L组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+      <tr><td>6/28</td><td>09:00</td><td>🇬🇭 加纳 vs 🇵🇦 巴拿马</td><td>L组</td><td><span class="status-badge status-upcoming">待赛</span></td></tr>
+    </table>
+  </div>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇳🇱 荷兰 | 2 | 1 | 1 | 0 | +4 | **4** | ⏳ 第3轮 |
-| 2 | 🇯🇵 日本 | 2 | 1 | 1 | 0 | +4 | **4** | ⏳ 第3轮 |
-| 3 | 🇸🇪 瑞典 | 2 | 1 | 0 | 1 | 0 | **3** | ⏳ 第3轮 |
-| 4 | 🇹🇳 突尼斯 | 2 | 0 | 0 | 2 | -8 | **0** | ⏳ 第3轮 |
+  <!-- 射手榜 -->
+  <div id="scorers" class="tab-content">
+    <table>
+      <tr><th>排名</th><th>球员</th><th>球队</th><th>进球</th><th>点球</th></tr>
+      <tr><td>🥇</td><td>梅西（Messi）</td><td>🇦🇷 阿根廷</td><td><b>5</b></td><td>0</td></tr>
+      <tr><td>🥈</td><td>维尼修斯（Vinícius Jr.）</td><td>🇧🇷 巴西</td><td><b>4</b></td><td>0</td></tr>
+      <tr><td>🥉</td><td>姆巴佩（Mbappé）</td><td>🇫🇷 法国</td><td><b>4</b></td><td>0</td></tr>
+      <tr><td>4</td><td>哈兰德（Haaland）</td><td>🇳🇴 挪威</td><td><b>4</b></td><td>0</td></tr>
+      <tr><td>5</td><td>翁达夫（Undav）</td><td>🇩🇪 德国</td><td><b>3</b></td><td>0</td></tr>
+      <tr><td>6</td><td>曼赞比（Mbango）</td><td>🇨🇭 瑞士</td><td><b>3</b></td><td>0</td></tr>
+      <tr><td>7</td><td>库尼亚（Cunha）</td><td>🇧🇷 巴西</td><td><b>3</b></td><td>0</td></tr>
+      <tr><td>8</td><td>赛巴里（Saibari）</td><td>🇲🇦 摩洛哥</td><td><b>3</b></td><td>0</td></tr>
+      <tr><td>9</td><td>戴维（David）</td><td>🇨🇦 加拿大</td><td><b>3</b></td><td>0</td></tr>
+      <tr><td>10</td><td>萨默维尔（Summerville）</td><td>🇳🇱 荷兰</td><td><b>2</b></td><td>0</td></tr>
+    </table>
+  </div>
 
-### G组（第2轮后）
+  <!-- 助攻榜 -->
+  <div id="assists" class="tab-content">
+    <table>
+      <tr><th>排名</th><th>球员</th><th>球队</th><th>助攻</th></tr>
+      <tr><td>🥇</td><td>吉马良斯（Guimarães）</td><td>🇧🇷 巴西</td><td><b>3</b></td></tr>
+      <tr><td>🥈</td><td>伊萨克（Isak）</td><td>🇸🇪 瑞典</td><td><b>3</b></td></tr>
+      <tr><td>🥉</td><td>奥利塞（Olise）</td><td>🇫🇷 法国</td><td><b>3</b></td></tr>
+      <tr><td>4</td><td>内森·萨利巴（Nathan Saliba）</td><td>🇨🇦 加拿大</td><td><b>2</b></td></tr>
+      <tr><td>5</td><td>恩西索（Enscio）</td><td>🇵🇾 巴拉圭</td><td><b>2</b></td></tr>
+      <tr><td>6</td><td>恩博洛（Embolo）</td><td>🇨🇭 瑞士</td><td><b>2</b></td></tr>
+      <tr><td>7</td><td>迪亚斯（Díaz）</td><td>🇲🇦 摩洛哥</td><td><b>2</b></td></tr>
+      <tr><td>8</td><td>翁达夫（Undav）</td><td>🇩🇪 德国</td><td><b>2</b></td></tr>
+      <tr><td>9</td><td>基米希（Kimmich）</td><td>🇩🇪 德国</td><td><b>2</b></td></tr>
+      <tr><td>10</td><td>赫拉芬贝赫（Gravenberch）</td><td>🇳🇱 荷兰</td><td><b>2</b></td></tr>
+    </table>
+  </div>
+</div>
 
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇪🇬 埃及 | 2 | 1 | 1 | 0 | +2 | **4** | ⏳ 第3轮 |
-| 2 | 🇧🇪 比利时 | 2 | 0 | 2 | 0 | 0 | **2** | ⏳ 第3轮 |
-| 3 | 🇮🇷 伊朗 | 2 | 0 | 2 | 0 | 0 | **2** | ⏳ 第3轮 |
-| 4 | 🇳🇿 新西兰 | 2 | 0 | 1 | 1 | -2 | **1** | ⏳ 第3轮 |
-
-### H组（第2轮后）
-
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇪🇸 西班牙 | 2 | 1 | 1 | 0 | +4 | **4** | ⏳ 第3轮 |
-| 2 | 🇺🇾 乌拉圭 | 2 | 0 | 2 | 0 | 0 | **2** | ⏳ 第3轮 |
-| 3 | 🇨🇻 佛得角 | 2 | 0 | 2 | 0 | 0 | **2** | ⏳ 第3轮 |
-| 4 | 🇸🇦 沙特 | 2 | 0 | 1 | 1 | -4 | **1** | ⏳ 第3轮 |
-
-### I组（第2轮后）
-
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇫🇷 法国 | 2 | 2 | 0 | 0 | +5 | **6** | ⏳ 第3轮 |
-| 2 | 🇳🇴 挪威 | 2 | 2 | 0 | 0 | +4 | **6** | ⏳ 第3轮 |
-| 3 | 🇸🇳 塞内加尔 | 2 | 0 | 0 | 2 | -3 | **0** | ❌ 出局 |
-| 4 | 🇮🇶 伊拉克 | 2 | 0 | 0 | 2 | -6 | **0** | ❌ 出局 |
-
-### J组（第2轮后）
-
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇦🇷 阿根廷 | 2 | 2 | 0 | 0 | +5 | **6** | ⏳ 第3轮 |
-| 2 | 🇦🇹 奥地利 | 2 | 1 | 0 | 1 | 0 | **3** | ⏳ 第3轮 |
-| 3 | 🇩🇿 阿尔及利亚 | 2 | 1 | 0 | 1 | -2 | **3** | ⏳ 第3轮 |
-| 4 | 🇯🇴 约旦 | 2 | 0 | 0 | 2 | -3 | **0** | ❌ 出局 |
-
-### K组（最终排名）
-
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🇨🇴 哥伦比亚 | 3 | 3 | 0 | 0 | +4 | **9** | ✅ 小组第一出线 |
-| 2 | 🇵🇹 葡萄牙 | 3 | 2 | 1 | 0 | +8 | **7** | ✅ 小组第二出线 |
-| 3 | 🇨🇩 刚果民主 | 3 | 0 | 2 | 1 | -1 | **2** | ❌ 出局 |
-| 4 | 🇺🇿 乌兹别克斯坦 | 3 | 0 | 1 | 2 | -7 | **1** | ❌ 出局 |
-
-### L组（最终排名）
-
-| 排名 | 球队 | 场次 | 胜 | 平 | 负 | 净胜球 | 积分 | 状态 |
-|------|------|------|---|---|---|--------|------|------|
-| 1 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 | 3 | 2 | 1 | 0 | +3 | **7** | ✅ 小组第一出线 |
-| 2 | 🇬🇭 加纳 | 3 | 1 | 2 | 0 | +1 | **5** | ✅ 小组第二出线 |
-| 3 | 🇭🇷 克罗地亚 | 3 | 1 | 0 | 2 | -2 | **3** | ❌ 出局 |
-| 4 | 🇵🇦 巴拿马 | 3 | 0 | 0 | 3 | -3 | **0** | ❌ 出局 |
-
----
-
-## ⚽ 射手榜
-
-| 排名 | 球员 | 球队 | 进球 | 点球 |
-|------|------|------|------|------|
-| 🥇 | 梅西（Messi） | 🇦🇷 阿根廷 | 5 | 0 |
-| 🥈 | 维尼修斯（Vinícius Jr.） | 🇧🇷 巴西 | 4 | 0 |
-| 🥉 | 姆巴佩（Mbappé） | 🇫🇷 法国 | 4 | 0 |
-| 4 | 哈兰德（Haaland） | 🇳🇴 挪威 | 4 | 0 |
-| 5 | 翁达夫（Undav） | 🇩🇪 德国 | 3 | 0 |
-| 6 | 曼赞比（Mbango） | 🇨🇭 瑞士 | 3 | 0 |
-| 7 | 库尼亚（Cunha） | 🇧🇷 巴西 | 3 | 0 |
-| 8 | 赛巴里（Saibari） | 🇲🇦 摩洛哥 | 3 | 0 |
-| 9 | 戴维（David） | 🇨🇦 加拿大 | 3 | 0 |
-| 10 | 萨默维尔（Summerville） | 🇳🇱 荷兰 | 2 | 0 |
-
----
-
-## 🎯 助攻榜
-
-| 排名 | 球员 | 球队 | 总计 |
-|------|------|------|------|
-| 🥇 | 吉马良斯（Guimarães） | 🇧🇷 巴西 | 3 |
-| 🥈 | 伊萨克（Isak） | 🇸🇪 瑞典 | 3 |
-| 🥉 | 奥利塞（Olise） | 🇫🇷 法国 | 3 |
-| 4 | 内森·萨利巴（Nathan Saliba） | 🇨🇦 加拿大 | 2 |
-| 5 | 恩西索（Enscio） | 🇵🇾 巴拉圭 | 2 |
-| 6 | 恩博洛（Embolo） | 🇨🇭 瑞士 | 2 |
-| 7 | 迪亚斯（Díaz） | 🇲🇦 摩洛哥 | 2 |
-| 8 | 翁达夫（Undav） | 🇩🇪 德国 | 2 |
-| 9 | 基米希（Kimmich） | 🇩🇪 德国 | 2 |
-| 10 | 赫拉芬贝赫（Gravenberch） | 🇳🇱 荷兰 | 2 |
-
----
-
-## 📊 已确定出线球队
-
-| 组别 | 小组第一 | 小组第二 |
-|------|---------|---------|
-| B组 | 🇨🇭 瑞士 | 🇨🇦 加拿大 |
-| C组 | 🇧🇷 巴西 | 🇲🇦 摩洛哥 |
-| K组 | 🇨🇴 哥伦比亚 | 🇵🇹 葡萄牙 |
-| L组 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 | 🇬🇭 加纳 |
-
-> ⏳ A/D/E/F/G/H/I/J组第3轮进行中，出线形势待定...
-
----
-
-## 📱 数据来源
-
-- **赛程/积分**：[小红书世界杯专题](https://www.xiaohongshu.com/worldcup26/fixtures)
-- **射手榜/助攻榜**：[直播吧数据频道](https://data.zhibo8.cc/pc_main_data/)
-- **更新频率**：每轮比赛结束后更新
+<script>
+function showTab(tabName) {
+  // 隐藏所有内容
+  document.querySelectorAll('.tab-content').forEach(el => {
+    el.classList.remove('active');
+  });
+  // 移除所有按钮active
+  document.querySelectorAll('.tab-btn').forEach(el => {
+    el.classList.remove('active');
+  });
+  // 显示选中内容
+  document.getElementById(tabName).classList.add('active');
+  // 激活对应按钮
+  event.target.classList.add('active');
+}
+</script>
 
 ---
 
