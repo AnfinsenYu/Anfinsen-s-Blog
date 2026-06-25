@@ -234,110 +234,110 @@ tr:hover {
     <div class="group-title">C组（已结束）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇧🇷 巴西</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+6</td><td><b>7</b> ✅</td></tr>
-      <tr><td>2</td><td>🇲🇦 摩洛哥</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
-      <tr><td>3</td><td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-3</td><td><b>3</b> ❌</td></tr>
-      <tr><td>4</td><td>🇭🇹 海地</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-6</td><td><b>0</b> ❌</td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇧🇷 巴西</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+6</td><td><b>7</b> ✅</td></tr>
+        <tr><td>2</td><td>🇲🇦 摩洛哥</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
+        <tr><td>3</td><td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-3</td><td><b>3</b> ❌</td></tr>
+        <tr><td>4</td><td>🇭🇹 海地</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-6</td><td><b>0</b> ❌</td></tr>
       </table>
     </div>
 
     <div class="group-title">D组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇺🇸 美国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
-      <tr><td>2</td><td>🇦🇺 澳大利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
-      <tr><td>3</td><td>🇵🇾 巴拉圭</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
-      <tr><td>4</td><td>🇹🇷 土耳其</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b></td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇺🇸 美国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+        <tr><td>2</td><td>🇦🇺 澳大利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+        <tr><td>3</td><td>🇵🇾 巴拉圭</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
+        <tr><td>4</td><td>🇹🇷 土耳其</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b></td></tr>
       </table>
     </div>
 
     <div class="group-title">E组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇩🇪 德国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+7</td><td><b>6</b></td></tr>
-      <tr><td>2</td><td>🇨🇮 科特迪瓦</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
-      <tr><td>3</td><td>🇪🇨 厄瓜多尔</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-1</td><td><b>1</b></td></tr>
-      <tr><td>4</td><td>🇨🇼 库拉索</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-8</td><td><b>1</b></td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇩🇪 德国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+7</td><td><b>6</b></td></tr>
+        <tr><td>2</td><td>🇨🇮 科特迪瓦</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+        <tr><td>3</td><td>🇪🇨 厄瓜多尔</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-1</td><td><b>1</b></td></tr>
+        <tr><td>4</td><td>🇨🇼 库拉索</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-8</td><td><b>1</b></td></tr>
       </table>
     </div>
 
     <div class="group-title">F组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇳🇱 荷兰</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
-      <tr><td>2</td><td>🇯🇵 日本</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
-      <tr><td>3</td><td>🇸🇪 瑞典</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
-      <tr><td>4</td><td>🇹🇳 突尼斯</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-8</td><td><b>0</b></td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇳🇱 荷兰</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+        <tr><td>2</td><td>🇯🇵 日本</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+        <tr><td>3</td><td>🇸🇪 瑞典</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+        <tr><td>4</td><td>🇹🇳 突尼斯</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-8</td><td><b>0</b></td></tr>
       </table>
     </div>
 
     <div class="group-title">G组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇪🇬 埃及</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+2</td><td><b>4</b></td></tr>
-      <tr><td>2</td><td>🇧🇪 比利时</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
-      <tr><td>3</td><td>🇮🇷 伊朗</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
-      <tr><td>4</td><td>🇳🇿 新西兰</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇪🇬 埃及</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+2</td><td><b>4</b></td></tr>
+        <tr><td>2</td><td>🇧🇪 比利时</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+        <tr><td>3</td><td>🇮🇷 伊朗</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+        <tr><td>4</td><td>🇳🇿 新西兰</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-2</td><td><b>1</b></td></tr>
       </table>
     </div>
 
     <div class="group-title">H组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇪🇸 西班牙</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
-      <tr><td>2</td><td>🇺🇾 乌拉圭</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
-      <tr><td>3</td><td>🇨🇻 佛得角</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
-      <tr><td>4</td><td>🇸🇦 沙特</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-4</td><td><b>1</b></td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇪🇸 西班牙</td><td>2</td><td>1</td><td>1</td><td>0</td><td>+4</td><td><b>4</b></td></tr>
+        <tr><td>2</td><td>🇺🇾 乌拉圭</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+        <tr><td>3</td><td>🇨🇻 佛得角</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td><b>2</b></td></tr>
+        <tr><td>4</td><td>🇸🇦 沙特</td><td>2</td><td>0</td><td>1</td><td>1</td><td>-4</td><td><b>1</b></td></tr>
       </table>
     </div>
 
     <div class="group-title">I组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇫🇷 法国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
-      <tr><td>2</td><td>🇳🇴 挪威</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+4</td><td><b>6</b></td></tr>
-      <tr><td>3</td><td>🇸🇳 塞内加尔</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
-      <tr><td>4</td><td>🇮🇶 伊拉克</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-6</td><td><b>0</b> ❌</td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇫🇷 法国</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+        <tr><td>2</td><td>🇳🇴 挪威</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+4</td><td><b>6</b></td></tr>
+        <tr><td>3</td><td>🇸🇳 塞内加尔</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
+        <tr><td>4</td><td>🇮🇶 伊拉克</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-6</td><td><b>0</b> ❌</td></tr>
       </table>
     </div>
 
     <div class="group-title">J组（第3轮待赛）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇦🇷 阿根廷</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
-      <tr><td>2</td><td>🇦🇹 奥地利</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
-      <tr><td>3</td><td>🇩🇿 阿尔及利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
-      <tr><td>4</td><td>🇯🇴 约旦</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇦🇷 阿根廷</td><td>2</td><td>2</td><td>0</td><td>0</td><td>+5</td><td><b>6</b></td></tr>
+        <tr><td>2</td><td>🇦🇹 奥地利</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td><b>3</b></td></tr>
+        <tr><td>3</td><td>🇩🇿 阿尔及利亚</td><td>2</td><td>1</td><td>0</td><td>1</td><td>-2</td><td><b>3</b></td></tr>
+        <tr><td>4</td><td>🇯🇴 约旦</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-3</td><td><b>0</b> ❌</td></tr>
       </table>
     </div>
 
     <div class="group-title">K组（已结束）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🇨🇴 哥伦比亚</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+4</td><td><b>9</b> ✅</td></tr>
-      <tr><td>2</td><td>🇵🇹 葡萄牙</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+8</td><td><b>7</b> ✅</td></tr>
-      <tr><td>3</td><td>🇨🇩 刚果民主</td><td>3</td><td>0</td><td>2</td><td>1</td><td>-1</td><td><b>2</b> ❌</td></tr>
-      <tr><td>4</td><td>🇺🇿 乌兹别克斯坦</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-7</td><td><b>1</b> ❌</td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🇨🇴 哥伦比亚</td><td>3</td><td>3</td><td>0</td><td>0</td><td>+4</td><td><b>9</b> ✅</td></tr>
+        <tr><td>2</td><td>🇵🇹 葡萄牙</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+8</td><td><b>7</b> ✅</td></tr>
+        <tr><td>3</td><td>🇨🇩 刚果民主</td><td>3</td><td>0</td><td>2</td><td>1</td><td>-1</td><td><b>2</b> ❌</td></tr>
+        <tr><td>4</td><td>🇺🇿 乌兹别克斯坦</td><td>3</td><td>0</td><td>1</td><td>2</td><td>-7</td><td><b>1</b> ❌</td></tr>
       </table>
     </div>
 
     <div class="group-title">L组（已结束）</div>
     <div class="table-wrapper">
       <table>
-      <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
-      <tr><td>1</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
-      <tr><td>2</td><td>🇬🇭 加纳</td><td>3</td><td>1</td><td>2</td><td>0</td><td>+1</td><td><b>5</b> ✅</td></tr>
-      <tr><td>3</td><td>🇭🇷 克罗地亚</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-2</td><td><b>3</b> ❌</td></tr>
-      <tr><td>4</td><td>🇵🇦 巴拿马</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-3</td><td><b>0</b> ❌</td></tr>
+        <tr><th>排名</th><th>球队</th><th>场次</th><th>胜</th><th>平</th><th>负</th><th>净胜球</th><th>积分</th></tr>
+        <tr><td>1</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td>3</td><td>2</td><td>1</td><td>0</td><td>+3</td><td><b>7</b> ✅</td></tr>
+        <tr><td>2</td><td>🇬🇭 加纳</td><td>3</td><td>1</td><td>2</td><td>0</td><td>+1</td><td><b>5</b> ✅</td></tr>
+        <tr><td>3</td><td>🇭🇷 克罗地亚</td><td>3</td><td>1</td><td>0</td><td>2</td><td>-2</td><td><b>3</b> ❌</td></tr>
+        <tr><td>4</td><td>🇵🇦 巴拿马</td><td>3</td><td>0</td><td>0</td><td>3</td><td>-3</td><td><b>0</b> ❌</td></tr>
       </table>
     </div>
   </div>
