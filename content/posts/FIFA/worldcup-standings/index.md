@@ -149,36 +149,6 @@ tr:hover {
   margin: 20px 0 10px 0;
   font-weight: bold;
 }
-/* 暗色模式适配 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: #1a1a2e;
-    --bg-secondary: #2d2d44;
-    --bg-hover: #3d3d5c;
-    --text-primary: #e0e0e0;
-    --text-secondary: #b0b0b0;
-    --border-color: #3d3d5c;
-    --shadow-color: rgba(0,0,0,0.3);
-  }
-  .tab-buttons {
-    background: var(--bg-primary);
-    border-bottom-color: var(--border-color);
-  }
-  .tab-btn {
-    background: var(--bg-secondary);
-    color: var(--text-primary);
-  }
-  .table-wrapper {
-    background: var(--bg-primary);
-  }
-  table {
-    background: var(--bg-primary);
-  }
-  td {
-    color: var(--text-primary);
-    border-bottom-color: var(--border-color);
-  }
-}
 /* 移动端适配 */
 @media (max-width: 768px) {
   .tab-buttons {
