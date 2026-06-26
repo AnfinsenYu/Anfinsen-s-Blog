@@ -9,7 +9,7 @@ description: "世界杯E/F组+D组第3轮战报：厄瓜多尔2-1逆转德国爆
 showToc: true
 TocOpen: true
 cover:
-  image: "https://tu.duoduocdn.com/uploads/day_260626/6a3dcfece5d93.jpg"
+  image: "images/cover.jpg"
   alt: "厄瓜多尔逆转德国"
   caption: "德国遭逆转1-2厄瓜多尔！佩佩双响助科特迪瓦队史首次晋级！"
   relative: false
