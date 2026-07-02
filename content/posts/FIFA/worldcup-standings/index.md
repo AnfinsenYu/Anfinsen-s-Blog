@@ -608,6 +608,8 @@ tr:hover {
 </table>
 </div>
 </div>
+</div>
+
 <!-- 射手榜 -->
 <div id="scorers" class="tab-content">
 <div class="table-wrapper">
@@ -717,6 +719,8 @@ function showTab(tabName) {
   event.target.classList.add('active');
 }
 </script>
+
+</div>
 
 ---
 
