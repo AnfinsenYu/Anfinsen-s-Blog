@@ -333,63 +333,282 @@ tr:hover {
 </table>
 </div>
 
-<div class="group-title">🌳 ## 🌳 淘汰赛晋级树状图
+<div class="group-title">🌳 淘汰赛晋级树状图</div>
+<div style="overflow-x: auto; padding: 20px 0;">
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 800px; font-size: 13px;">
+  <div style="display: flex; justify-content: space-between; gap: 40px;">
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/16决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇧🇷 巴西</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇯🇵 日本</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 04:30</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇩🇪 德国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">4(5)</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇵🇾 巴拉圭</span><span style="font-weight: bold; min-width: 30px; text-align: right;">4(5)</span></div>
+        </div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">点球 4-5</div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇳🇱 荷兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3(4)</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇲🇦 摩洛哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3(4)</span></div>
+        </div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">点球 3-4</div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇨🇮 科特迪瓦</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇳🇴 挪威</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇫🇷 法国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇸🇪 瑞典</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 10:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇲🇽 墨西哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇪🇨 厄瓜多尔</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 00:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇨🇩 民主刚果</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 04:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇧🇪 比利时</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇸🇳 塞内加尔</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+        </div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">加时</div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 08:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇺🇸 美国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇧🇦 波黑</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 03:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇪🇸 西班牙</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇦🇹 奥地利</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 07:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇵🇹 葡萄牙</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇭🇷 克罗地亚</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 11:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇨🇭 瑞士</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇩🇿 阿尔及利亚</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
 
-### 1/16决赛
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/8决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇧🇷 巴西</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇵🇾 巴拉圭</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇲🇦 摩洛哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇳🇴 挪威</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇫🇷 法国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇧🇪 比利时</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇲🇽 墨西哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇺🇸 美国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/6 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/6 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
 
-| 日期时间 | 对阵 | 比分 | 备注 |
-|---------|------|------|------|
-| 6/30 01:00 | 🇧🇷 巴西 vs 🇯🇵 日本 | 2-1 | |
-| 6/30 04:30 | 🇩🇪 德国 vs 🇵🇾 巴拉圭 | 4(5)-(4)5 | 点球 |
-| 6/30 09:00 | 🇳🇱 荷兰 vs 🇲🇦 摩洛哥 | 3(4)-(3)4 | 点球 |
-| 7/1 01:00 | 🇨🇮 科特迪瓦 vs 🇳🇴 挪威 | 1-2 | |
-| 7/1 05:00 | 🇫🇷 法国 vs 🇸🇪 瑞典 | 3-0 | |
-| 7/1 10:00 | 🇲🇽 墨西哥 vs 🇪🇨 厄瓜多尔 | 2-0 | |
-| 7/2 00:00 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇨🇩 民主刚果 | 2-1 | |
-| 7/2 04:00 | 🇧🇪 比利时 vs 🇸🇳 塞内加尔 | 3-2 | 加时 |
-| 7/2 08:00 | 🇺🇸 美国 vs 🇧🇦 波黑 | - | 待赛 |
-| 7/3 03:00 | 🇪🇸 西班牙 vs 🇦🇹 奥地利 | - | 待赛 |
-| 7/3 07:00 | 🇵🇹 葡萄牙 vs 🇭🇷 克罗地亚 | - | 待赛 |
-| 7/3 11:00 | 🇨🇭 瑞士 vs 🇩🇿 阿尔及利亚 | - | 待赛 |
-| 7/4 02:00 | 🇦🇺 澳大利亚 vs 🇪🇬 埃及 | - | 待赛 |
-| 7/4 06:00 | 🇦🇷 阿根廷 vs 🇨🇻 佛得角 | - | 待赛 |
-| 7/4 09:30 | 🇨🇴 哥伦比亚 vs 🇬🇭 加纳 | - | 待赛 |
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/4决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/8 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/8 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/9 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/9 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
 
-### 1/8决赛（16强）
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">半决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/12 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/13 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
 
-| 场次 | 日期时间 | 对阵 | 备注 |
-|------|---------|------|------|
-| 第89场 | 7/5 05:00 | 🇵🇾 巴拉圭 vs 🇫🇷 法国 | 待赛 |
-| 第90场 | 7/5 01:00 | 🇨🇦 加拿大 vs 🇲🇦 摩洛哥 | 待赛 |
-| 第91场 | 7/6 04:00 | 巴西/巴拉圭 vs 🇳🇴 挪威 | 待赛 |
-| 第92场 | 7/6 08:00 | 🇲🇽 墨西哥 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 | 待赛 |
-| 第93场 | 7/7 03:00 | 🇨🇴 哥伦比亚 vs 民主刚果/克罗地亚 | 待赛 |
-| 第94场 | 7/7 08:00 | 待定 | 待赛 |
-| 第95场 | 7/8 00:00 | 待定 | 待赛 |
-| 第96场 | 7/8 04:00 | 待定 | 待赛 |
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">🏆 决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px; min-height: 100px; justify-content: center;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/16 03:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-### 1/4决赛（8强）
-
-| 场次 | 日期时间 | 对阵 | 备注 |
-|------|---------|------|------|
-| 第97场 | 7/10 04:00 | 第89场胜者 vs 第90场胜者 | 待赛 |
-| 第98场 | 7/11 03:00 | 第91场胜者 vs 第92场胜者 | 待赛 |
-| 第99场 | 7/12 05:00 | 第93场胜者 vs 第94场胜者 | 待赛 |
-| 第100场 | 7/12 09:00 | 第95场胜者 vs 第96场胜者 | 待赛 |
-
-### 半决赛
-
-| 场次 | 日期时间 | 对阵 | 备注 |
-|------|---------|------|------|
-| 第101场 | 7/15 03:00 | 第97场胜者 vs 第98场胜者 | 待赛 |
-| 第102场 | 7/16 03:00 | 第99场胜者 vs 第100场胜者 | 待赛 |
-
-### 决赛
-
-| 场次 | 日期时间 | 对阵 | 备注 |
-|------|---------|------|------|
-| 第103场（季军） | 7/19 05:00 | 第101场负者 vs 第102场负者 | 待赛 |
-| 第104场（决赛） | 7/20 03:00 | 第101场胜者 vs 第102场胜者 | 待赛 |
+<div class="group-title">📅 小组赛赛程</div>
+<div class="table-wrapper">
+<table>
+<tr><th>日期</th><th>时间</th><th>比赛</th><th>组别</th><th>状态</th></tr>
+<tr><td>6/11</td><td>09:00</td><td>🇲🇽 墨西哥 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-done">2-0</span></td></tr>
+<tr><td>6/11</td><td>12:00</td><td>🇰🇷 韩国 vs 🇨🇿 捷克</td><td>A组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+<tr><td>6/12</td><td>03:00</td><td>🇨🇦 加拿大 vs 🇧🇦 波黑</td><td>B组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/12</td><td>06:00</td><td>🇺🇸 美国 vs 🇵🇾 巴拉圭</td><td>B组</td><td><span class="status-badge status-done">4-1</span></td></tr>
+<tr><td>6/13</td><td>03:00</td><td>🇶🇦 卡塔尔 vs 🇨🇭 瑞士</td><td>C组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/13</td><td>06:00</td><td>🇧🇷 巴西 vs 🇲🇦 摩洛哥</td><td>C组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/13</td><td>09:00</td><td>🇭🇹 海地 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>C组</td><td><span class="status-badge status-done">0-1</span></td></tr>
+<tr><td>6/14</td><td>03:00</td><td>🇦🇺 澳大利亚 vs 🇹🇷 土耳其</td><td>D组</td><td><span class="status-badge status-done">2-0</span></td></tr>
+<tr><td>6/14</td><td>06:00</td><td>🇨🇮 科特迪瓦 vs 🇪🇨 厄瓜多尔</td><td>E组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+<tr><td>6/14</td><td>09:00</td><td>🇩🇪 德国 vs 🇨🇼 库拉索</td><td>E组</td><td><span class="status-badge status-done">7-1</span></td></tr>
+<tr><td>6/15</td><td>03:00</td><td>🇳🇱 荷兰 vs 🇯🇵 日本</td><td>F组</td><td><span class="status-badge status-done">2-2</span></td></tr>
+<tr><td>6/15</td><td>06:00</td><td>🇸🇪 瑞典 vs 🇹🇳 突尼斯</td><td>F组</td><td><span class="status-badge status-done">5-1</span></td></tr>
+<tr><td>6/16</td><td>03:00</td><td>🇪🇸 西班牙 vs 🇨🇻 佛得角</td><td>H组</td><td><span class="status-badge status-done">0-0</span></td></tr>
+<tr><td>6/16</td><td>06:00</td><td>🇧🇪 比利时 vs 🇪🇬 埃及</td><td>G组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/16</td><td>09:00</td><td>🇸🇦 沙特 vs 🇺🇾 乌拉圭</td><td>H组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/17</td><td>00:00</td><td>🇮🇷 伊朗 vs 🇳🇿 新西兰</td><td>G组</td><td><span class="status-badge status-done">2-2</span></td></tr>
+<tr><td>6/17</td><td>03:00</td><td>🇫🇷 法国 vs 🇸🇳 塞内加尔</td><td>I组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+<tr><td>6/17</td><td>06:00</td><td>🇮🇶 伊拉克 vs 🇳🇴 挪威</td><td>I组</td><td><span class="status-badge status-done">1-4</span></td></tr>
+<tr><td>6/17</td><td>09:00</td><td>🇦🇷 阿根廷 vs 🇩🇿 阿尔及利亚</td><td>J组</td><td><span class="status-badge status-done">3-0</span></td></tr>
+<tr><td>6/18</td><td>03:00</td><td>🇦🇹 奥地利 vs 🇯🇴 约旦</td><td>J组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+<tr><td>6/18</td><td>06:00</td><td>🇵🇹 葡萄牙 vs 🇨🇩 刚果民主</td><td>K组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/18</td><td>09:00</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰 vs 🇭🇷 克罗地亚</td><td>L组</td><td><span class="status-badge status-done">4-2</span></td></tr>
+<tr><td>6/19</td><td>00:00</td><td>🇬🇭 加纳 vs 🇵🇦 巴拿马</td><td>L组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+<tr><td>6/19</td><td>03:00</td><td>🇺🇿 乌兹别克斯坦 vs 🇨🇴 哥伦比亚</td><td>K组</td><td><span class="status-badge status-done">1-3</span></td></tr>
+<tr><td>6/25</td><td>03:00</td><td>🇧🇦 波黑 vs 🇶🇦 卡塔尔</td><td>B组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+<tr><td>6/25</td><td>03:00</td><td>🇨🇭 瑞士 vs 🇨🇦 加拿大</td><td>B组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+<tr><td>6/25</td><td>06:00</td><td>🇧🇷 巴西 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 苏格兰</td><td>C组</td><td><span class="status-badge status-done">3-0</span></td></tr>
+<tr><td>6/25</td><td>06:00</td><td>🇲🇦 摩洛哥 vs 🇭🇹 海地</td><td>C组</td><td><span class="status-badge status-done">4-2</span></td></tr>
+<tr><td>6/25</td><td>03:00</td><td>🇲🇽 墨西哥 vs 🇰🇷 韩国</td><td>A组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+<tr><td>6/25</td><td>03:00</td><td>🇨🇿 捷克 vs 🇿🇦 南非</td><td>A组</td><td><span class="status-badge status-done">0-3</span></td></tr>
+<tr><td>6/26</td><td>04:00</td><td>🇪🇨 厄瓜多尔 vs 🇩🇪 德国</td><td>E组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+<tr><td>6/26</td><td>04:00</td><td>🇨🇼 库拉索 vs 🇨🇮 科特迪瓦</td><td>E组</td><td><span class="status-badge status-done">0-2</span></td></tr>
+<tr><td>6/26</td><td>07:00</td><td>🇹🇳 突尼斯 vs 🇳🇱 荷兰</td><td>F组</td><td><span class="status-badge status-done">1-3</span></td></tr>
+<tr><td>6/26</td><td>07:00</td><td>🇯🇵 日本 vs 🇸🇪 瑞典</td><td>F组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/26</td><td>10:00</td><td>🇹🇷 土耳其 vs 🇺🇸 美国</td><td>D组</td><td><span class="status-badge status-done">3-2</span></td></tr>
+<tr><td>6/26</td><td>10:00</td><td>🇵🇾 巴拉圭 vs 🇦🇺 澳大利亚</td><td>D组</td><td><span class="status-badge status-done">0-0</span></td></tr>
+<tr><td>6/27</td><td>03:00</td><td>🇧🇪 比利时 vs 🇳🇿 新西兰</td><td>G组</td><td><span class="status-badge status-done">5-1</span></td></tr>
+<tr><td>6/27</td><td>03:00</td><td>🇪🇬 埃及 vs 🇮🇷 伊朗</td><td>G组</td><td><span class="status-badge status-done">1-1</span></td></tr>
+<tr><td>6/27</td><td>08:00</td><td>🇪🇸 西班牙 vs 🇺🇾 乌拉圭</td><td>H组</td><td><span class="status-badge status-done">1-0</span></td></tr>
+<tr><td>6/27</td><td>08:00</td><td>🇨🇻 佛得角 vs 🇸🇦 沙特</td><td>H组</td><td><span class="status-badge status-done">0-0</span></td></tr>
+<tr><td>6/27</td><td>03:00</td><td>🇳🇴 挪威 vs 🇫🇷 法国</td><td>I组</td><td><span class="status-badge status-done">1-4</span></td></tr>
+<tr><td>6/27</td><td>03:00</td><td>🇸🇳 塞内加尔 vs 🇮🇶 伊拉克</td><td>I组</td><td><span class="status-badge status-done">5-0</span></td></tr>
+<tr><td>6/28</td><td>05:00</td><td>🇵🇦 巴拿马 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td>L组</td><td><span class="status-badge status-done">0-2</span></td></tr>
+<tr><td>6/28</td><td>05:00</td><td>🇭🇷 克罗地亚 vs 🇬🇭 加纳</td><td>L组</td><td><span class="status-badge status-done">2-1</span></td></tr>
+<tr><td>6/28</td><td>07:30</td><td>🇨🇴 哥伦比亚 vs 🇵🇹 葡萄牙</td><td>K组</td><td><span class="status-badge status-done">0-0</span></td></tr>
+<tr><td>6/28</td><td>07:30</td><td>🇨🇩 民主刚果 vs 🇺🇿 乌兹别克斯坦</td><td>K组</td><td><span class="status-badge status-done">3-1</span></td></tr>
+<tr><td>6/28</td><td>10:00</td><td>🇯🇴 约旦 vs 🇦🇷 阿根廷</td><td>J组</td><td><span class="status-badge status-done">1-3</span></td></tr>
+<tr><td>6/28</td><td>10:00</td><td>🇩🇿 阿尔及利亚 vs 🇦🇹 奥地利</td><td>J组</td><td><span class="status-badge status-done">3-3</span></td></tr>
+<tr><td>6/29</td><td>03:00</td><td>🇿🇦 南非 vs 🇨🇦 加拿大</td><td>B组</td><td><span class="status-badge status-done">0-1</span></td></tr>
+</table>
+</div>
+</div>
+</div>
 
 <!-- 射手榜 -->
 <div id="scorers" class="tab-content">
