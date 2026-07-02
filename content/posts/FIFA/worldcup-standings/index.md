@@ -360,7 +360,6 @@ tr:hover {
 </style>
 
 <div class="bracket-tree">
-  <!-- 1/16决赛 -->
   <div class="bracket-round">
     <div class="bracket-column">
       <div class="bracket-title">1/16决赛</div>
@@ -453,7 +452,6 @@ tr:hover {
       </div>
     </div>
 
-    <!-- 1/8决赛 -->
     <div class="bracket-column">
       <div class="bracket-title">1/8决赛</div>
       <div class="bracket-match upcoming">
@@ -514,7 +512,6 @@ tr:hover {
       </div>
     </div>
 
-    <!-- 1/4决赛 -->
     <div class="bracket-column">
       <div class="bracket-title">1/4决赛</div>
       <div class="bracket-match upcoming">
@@ -547,7 +544,6 @@ tr:hover {
       </div>
     </div>
 
-    <!-- 半决赛 -->
     <div class="bracket-column">
       <div class="bracket-title">半决赛</div>
       <div class="bracket-match upcoming">
@@ -566,7 +562,6 @@ tr:hover {
       </div>
     </div>
 
-    <!-- 决赛 -->
     <div class="bracket-column">
       <div class="bracket-title">🏆 决赛</div>
       <div class="bracket-match upcoming" style="min-height: 100px; justify-content: center;">
