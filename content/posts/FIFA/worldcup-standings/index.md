@@ -334,241 +334,217 @@ tr:hover {
 </div>
 
 <div class="group-title">🌳 淘汰赛晋级树状图</div>
-<div class="bracket-container" style="overflow-x: auto; padding: 20px 0;">
-<style>
-.bracket-tree { display: flex; flex-direction: column; gap: 8px; min-width: 800px; font-size: 13px; }
-.bracket-round { display: flex; justify-content: space-between; gap: 40px; }
-.bracket-column { display: flex; flex-direction: column; gap: 6px; flex: 1; }
-.bracket-title { text-align: center; font-weight: bold; color: var(--text-primary); padding: 8px; background: linear-gradient(135deg, var(--accent-from) 0%, var(--accent-to) 100%); color: white; border-radius: 6px; margin-bottom: 8px; }
-.bracket-match { background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
-.bracket-match.done { border-left: 4px solid #4CAF50; }
-.bracket-match.upcoming { border-left: 4px solid #ff9800; }
-.bracket-teams { display: flex; flex-direction: column; gap: 4px; }
-.bracket-team { display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; }
-.bracket-team.winner { background: rgba(76, 175, 80, 0.15); font-weight: bold; }
-.bracket-team.loser { opacity: 0.7; }
-.bracket-info { font-size: 11px; color: var(--text-secondary); text-align: center; margin-top: 4px; }
-.bracket-date { font-size: 10px; color: var(--text-secondary); text-align: center; }
-.bracket-score { font-weight: bold; min-width: 30px; text-align: right; }
-.bracket-connector { display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 20px; }
-@media (max-width: 768px) {
-  .bracket-tree { min-width: 600px; font-size: 11px; }
-  .bracket-round { gap: 15px; }
-  .bracket-match { padding: 6px; }
-  .bracket-team { padding: 2px 4px; }
-}
-</style>
-
-<div class="bracket-tree">
-  <div class="bracket-round">
-    <div class="bracket-column">
-      <div class="bracket-title">1/16决赛</div>
-      <div class="bracket-match done">
-        <div class="bracket-date">6/30 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🇧🇷 巴西</span><span class="bracket-score">2</span></div>
-          <div class="bracket-team loser"><span>🇯🇵 日本</span><span class="bracket-score">1</span></div>
+<div style="overflow-x: auto; padding: 20px 0;">
+<div style="display: flex; flex-direction: column; gap: 8px; min-width: 800px; font-size: 13px;">
+  <div style="display: flex; justify-content: space-between; gap: 40px;">
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/16决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇧🇷 巴西</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇯🇵 日本</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
         </div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">6/30 04:30</div>
-        <div class="bracket-teams">
-          <div class="bracket-team loser"><span>🇩🇪 德国</span><span class="bracket-score">4(5)</span></div>
-          <div class="bracket-team winner"><span>🇵🇾 巴拉圭</span><span class="bracket-score">4(5)</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 04:30</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇩🇪 德国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">4(5)</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇵🇾 巴拉圭</span><span style="font-weight: bold; min-width: 30px; text-align: right;">4(5)</span></div>
         </div>
-        <div class="bracket-info">点球 4-5</div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">点球 4-5</div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">6/30 09:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team loser"><span>🇳🇱 荷兰</span><span class="bracket-score">3(4)</span></div>
-          <div class="bracket-team winner"><span>🇲🇦 摩洛哥</span><span class="bracket-score">3(4)</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">6/30 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇳🇱 荷兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3(4)</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇲🇦 摩洛哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3(4)</span></div>
         </div>
-        <div class="bracket-info">点球 3-4</div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">点球 3-4</div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/1 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team loser"><span>🇨🇮 科特迪瓦</span><span class="bracket-score">1</span></div>
-          <div class="bracket-team winner"><span>🇳🇴 挪威</span><span class="bracket-score">2</span></div>
-        </div>
-      </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/1 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🇫🇷 法国</span><span class="bracket-score">3</span></div>
-          <div class="bracket-team loser"><span>🇸🇪 瑞典</span><span class="bracket-score">0</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇨🇮 科特迪瓦</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇳🇴 挪威</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
         </div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/1 10:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🇲🇽 墨西哥</span><span class="bracket-score">2</span></div>
-          <div class="bracket-team loser"><span>🇪🇨 厄瓜多尔</span><span class="bracket-score">0</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇫🇷 法国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇸🇪 瑞典</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
         </div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/2 00:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span class="bracket-score">2</span></div>
-          <div class="bracket-team loser"><span>🇨🇩 民主刚果</span><span class="bracket-score">1</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/1 10:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇲🇽 墨西哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇪🇨 厄瓜多尔</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
         </div>
       </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/2 04:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🇧🇪 比利时</span><span class="bracket-score">3</span></div>
-          <div class="bracket-team loser"><span>🇸🇳 塞内加尔</span><span class="bracket-score">2</span></div>
-        </div>
-        <div class="bracket-info">加时</div>
-      </div>
-      <div class="bracket-match done">
-        <div class="bracket-date">7/2 08:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team winner"><span>🇺🇸 美国</span><span class="bracket-score">2</span></div>
-          <div class="bracket-team loser"><span>🇧🇦 波黑</span><span class="bracket-score">0</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 00:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇨🇩 民主刚果</span><span style="font-weight: bold; min-width: 30px; text-align: right;">1</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/3 03:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇪🇸 西班牙</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇦🇹 奥地利</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 04:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇧🇪 比利时</span><span style="font-weight: bold; min-width: 30px; text-align: right;">3</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇸🇳 塞内加尔</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+        </div>
+        <div style="font-size: 11px; color: #888; text-align: center; margin-top: 4px;">加时</div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #4CAF50; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/2 08:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; background: rgba(76, 175, 80, 0.15); font-weight: bold;"><span>🇺🇸 美国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">2</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px; opacity: 0.7;"><span>🇧🇦 波黑</span><span style="font-weight: bold; min-width: 30px; text-align: right;">0</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/3 07:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇵🇹 葡萄牙</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇭🇷 克罗地亚</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 03:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇪🇸 西班牙</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇦🇹 奥地利</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/3 11:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇨🇭 瑞士</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇩🇿 阿尔及利亚</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 07:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇵🇹 葡萄牙</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇭🇷 克罗地亚</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/3 11:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇨🇭 瑞士</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇩🇿 阿尔及利亚</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
     </div>
 
-    <div class="bracket-column">
-      <div class="bracket-title">1/8决赛</div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/4 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇧🇷 巴西</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇵🇾 巴拉圭</span><span class="bracket-score">-</span></div>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/8决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇧🇷 巴西</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇵🇾 巴拉圭</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/4 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇲🇦 摩洛哥</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇳🇴 挪威</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇲🇦 摩洛哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇳🇴 挪威</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/4 09:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇫🇷 法国</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🇧🇪 比利时</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/4 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇫🇷 法国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇧🇪 比利时</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/5 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇲🇽 墨西哥</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇲🇽 墨西哥</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/5 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>🇺🇸 美国</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>🇺🇸 美国</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/5 09:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/5 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/6 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/6 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/6 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bracket-column">
-      <div class="bracket-title">1/4决赛</div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/8 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-        </div>
-      </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/8 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-        </div>
-      </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/9 01:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-        </div>
-      </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/9 05:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/6 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
     </div>
 
-    <div class="bracket-column">
-      <div class="bracket-title">半决赛</div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/12 09:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">1/4决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/8 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
-      <div class="bracket-match upcoming">
-        <div class="bracket-date">7/13 09:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/8 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/9 01:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/9 05:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
     </div>
 
-    <div class="bracket-column">
-      <div class="bracket-title">🏆 决赛</div>
-      <div class="bracket-match upcoming" style="min-height: 100px; justify-content: center;">
-        <div class="bracket-date">7/16 03:00</div>
-        <div class="bracket-teams">
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
-          <div class="bracket-team"><span>待定</span><span class="bracket-score">-</span></div>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">半决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/12 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/13 09:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1;">
+      <div style="text-align: center; font-weight: bold; padding: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 6px; margin-bottom: 8px;">🏆 决赛</div>
+      <div style="background: #1a1a2e; border: 1px solid #333; border-left: 4px solid #ff9800; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px; min-height: 100px; justify-content: center;">
+        <div style="font-size: 10px; color: #888; text-align: center;">7/16 03:00</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-radius: 4px;"><span>待定</span><span style="font-weight: bold; min-width: 30px; text-align: right;">-</span></div>
         </div>
       </div>
     </div>
