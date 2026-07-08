@@ -428,17 +428,17 @@ tr:hover {
 <div id="scorers" class="tab-content">
 <div class="table-wrapper">
 <table>
-<tr><th>排名</th><th>球员</th><th>球队</th><th>进球</th></tr>
-<tr><td>🥇</td><td>梅西（Messi）</td><td>🇦🇷 阿根廷</td><td><b>8</b></td></tr>
-<tr><td>🥈</td><td>姆巴佩（Mbappé）</td><td>🇫🇷 法国</td><td><b>7</b></td></tr>
-<tr><td>🥈</td><td>哈兰德（Haaland）</td><td>🇳🇴 挪威</td><td><b>7</b></td></tr>
-<tr><td>4</td><td>凯恩（Kane）</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td><b>6</b></td></tr>
-<tr><td>5</td><td>登贝莱（Dembélé）</td><td>🇫🇷 法国</td><td><b>4</b></td></tr>
-<tr><td>6</td><td>I.萨尔（I. Sarr）</td><td>🇸🇳 塞内加尔</td><td><b>4</b></td></tr>
-<tr><td>7</td><td>奥亚萨瓦尔（Oyarzabal）</td><td>🇪🇸 西班牙</td><td><b>4</b></td></tr>
-<tr><td>8</td><td>贝林厄姆（Bellingham）</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td><b>4</b></td></tr>
-<tr><td>9</td><td>基尼奥内斯（Quiñones）</td><td>🇲🇽 墨西哥</td><td><b>4</b></td></tr>
-<tr><td>10</td><td>维尼修斯（Vinícius Jr.）</td><td>🇧🇷 巴西</td><td><b>4</b></td></tr>
+<tr><th>排名</th><th>球员</th><th>球队</th><th>进球</th><th>点球</th></tr>
+<tr><td>🥇</td><td>梅西（Messi）</td><td>🇦🇷 阿根廷</td><td><b>8</b></td><td>0</td></tr>
+<tr><td>🥈</td><td>姆巴佩（Mbappé）</td><td>🇫🇷 法国</td><td><b>7</b></td><td>1</td></tr>
+<tr><td>🥈</td><td>哈兰德（Haaland）</td><td>🇳🇴 挪威</td><td><b>7</b></td><td>0</td></tr>
+<tr><td>4</td><td>凯恩（Kane）</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td><b>6</b></td><td>2</td></tr>
+<tr><td>5</td><td>登贝莱（Dembélé）</td><td>🇫🇷 法国</td><td><b>4</b></td><td>0</td></tr>
+<tr><td>6</td><td>I.萨尔（I. Sarr）</td><td>🇸🇳 塞内加尔</td><td><b>4</b></td><td>0</td></tr>
+<tr><td>7</td><td>奥亚萨瓦尔（Oyarzabal）</td><td>🇪🇸 西班牙</td><td><b>4</b></td><td>0</td></tr>
+<tr><td>8</td><td>贝林厄姆（Bellingham）</td><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格兰</td><td><b>4</b></td><td>0</td></tr>
+<tr><td>9</td><td>基尼奥内斯（Quiñones）</td><td>🇲🇽 墨西哥</td><td><b>4</b></td><td>0</td></tr>
+<tr><td>10</td><td>维尼修斯（Vinícius Jr.）</td><td>🇧🇷 巴西</td><td><b>4</b></td><td>0</td></tr>
 </table>
 </div>
 </div>
