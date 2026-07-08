@@ -320,6 +320,7 @@ tr:hover {
 
 <!-- 赛程 -->
 <div id="schedule" class="tab-content">
+<img src="images/bracket.jpg" alt="晋级树状图" style="max-width:100%; display:block; margin:0 auto 20px;">
 <div class="group-title">🏆 淘汰赛赛程（1/16决赛已全部结束）</div>
 <div class="table-wrapper">
 <table>
