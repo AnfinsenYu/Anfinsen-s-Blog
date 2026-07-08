@@ -189,6 +189,7 @@ tr:hover {
     <button class="tab-btn active" onclick="showTab('standings')">📊 积分榜</button>
     <button class="tab-btn" onclick="showTab('schedule')">📅 赛程</button>
     <button class="tab-btn" onclick="showTab('scorers')">⚽ 射手榜</button>
+    <button class="tab-btn" onclick="showTab('history')">📜 历史射手榜</button>
     <button class="tab-btn" onclick="showTab('assists')">🎯 助攻榜</button>
     <button class="tab-btn" onclick="showTab('teams')">🏆 8强名单</button>
   </div>
@@ -442,6 +443,14 @@ tr:hover {
 </table>
 </div>
 </div>
+<!-- 历史射手榜 -->
+<div id="history" class="tab-content">
+<div class="table-wrapper">
+<img src="images/历史射手榜.jpg" alt="历史射手榜" style="width:100%;border-radius:8px;" />
+<p style="text-align:center;color:#999;font-size:13px;margin-top:8px;">📸 图片来源：直播吧 | 数据截至 2026年7月8日</p>
+</div>
+</div>
+
 <!-- 助攻榜 -->
 <div id="assists" class="tab-content">
 <div class="table-wrapper">
