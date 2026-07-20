@@ -573,6 +573,6 @@ function showTab(tabName) {
 
 ---
 
-> 🔗 **返回专题主页**：[2026 FIFA 世界杯专题](/fifa/)
+> 🔗 **返回专题主页**：[2026 FIFA 世界杯专题](posts/fifa/)
 
 **AnfinsenYu** | 2026年7月20日
