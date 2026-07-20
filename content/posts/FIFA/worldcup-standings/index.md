@@ -191,7 +191,7 @@ tr:hover {
     <button class="tab-btn" onclick="showTab('scorers')">⚽ 射手榜</button>
     <button class="tab-btn" onclick="showTab('history')">📜 历史射手榜</button>
     <button class="tab-btn" onclick="showTab('assists')">🎯 助攻榜</button>
-    <button class="tab-btn" onclick="showTab('teams')">🏆 8强名单</button>
+    <button class="tab-btn" onclick="showTab('teams')">🏆 48强最终排名</button>
   </div>
 
 <!-- 积分榜 -->
