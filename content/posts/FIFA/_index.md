@@ -5,7 +5,7 @@ draft: false
 description: "2026年美加墨世界杯全攻略:赛制解读、分组分析、死亡之组、球星评级、夺冠预测"
 type: "section"
 ---
-<img src="https://www.freelogovectors.net/wp-content/uploads/2025/07/fifa-world-cup-2026-freelogovectors.net_.png" alt="2026 FIFA World Cup Logo" width="400" style="display:block;margin:0 auto 1rem;">
+<img src="fifa-logo.jpg" alt="2026 FIFA World Cup Logo" width="200" style="display:block;margin:0 auto 1rem;">
 > 🏆 美加墨三国联办 · 48 队扩军 · 104 场比赛 · 39 天赛程
 
 ---
