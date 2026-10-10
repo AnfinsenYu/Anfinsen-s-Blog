@@ -88,3 +88,10 @@ buildFuture = true
   name = "🔍 搜索"
   url = "/search/"
   weight = 60
+
+# 首页欢迎区竞逐特签
+[params.driveSignature]
+  enabled = true
+  name = "AnfinsenYu"
+  period = 19
+  variant = "purple"

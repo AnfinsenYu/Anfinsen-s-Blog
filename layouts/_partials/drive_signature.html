@@ -1,0 +1,10 @@
+{{- with site.Params.driveSignature }}
+{{- if .enabled }}
+{{- $query := querify "name" (.name | default "AnfinsenYu") "period" (.period | default 19) "variant" (.variant | default "purple") }}
+<div class="home-drive-signature">
+    <iframe title="{{ .name | default "AnfinsenYu" }} 的竞逐特签"
+        src="{{ printf "%s?%s" ("drive-signature/embed.html" | relURL) $query }}"
+        loading="eager" scrolling="no"></iframe>
+</div>
+{{- end }}
+{{- end }}
