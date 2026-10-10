@@ -92,6 +92,6 @@ buildFuture = true
 # 首页欢迎区竞逐特签
 [params.driveSignature]
   enabled = true
-  name = "AnfinsenYu"
-  period = 19
+  name = "ANFINSEN"
+  period = 10
   variant = "purple"
