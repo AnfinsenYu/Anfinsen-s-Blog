@@ -1,9 +1,12 @@
 {{- with site.Params.driveSignature }}
 {{- if .enabled }}
 {{- $query := querify "name" (.name | default "AnfinsenYu") "period" (.period | default 19) "variant" (.variant | default "purple") }}
-<div class="home-drive-signature">
+{{- $video := eq .variant "cyan-crystal" }}
+{{- $embed := "drive-signature/embed.html" }}
+{{- if $video }}{{ $embed = "drive-signature/video-embed.html" }}{{ end }}
+<div class="home-drive-signature{{ if $video }} home-drive-signature--video{{ end }}">
     <iframe title="{{ .name | default "AnfinsenYu" }} 的竞逐特签"
-        src="{{ printf "%s?%s" ("drive-signature/embed.html" | relURL) $query }}"
+        src="{{ printf "%s?%s" ($embed | relURL) $query }}"
         loading="eager" scrolling="no"></iframe>
 </div>
 {{- end }}

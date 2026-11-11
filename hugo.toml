@@ -94,4 +94,5 @@ buildFuture = true
   enabled = true
   name = "ANFINSEN"
   period = 10
-  variant = "purple"
+  # 录像帧版：cyan-crystal；原手绘版：purple、blue、red、wing、orb、diamond
+  variant = "cyan-crystal"
