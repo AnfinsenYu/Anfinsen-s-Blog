@@ -1,7 +1,8 @@
 {{- with site.Params.driveSignature }}
 {{- if .enabled }}
 {{- $query := querify "name" (.name | default "AnfinsenYu") "period" (.period | default 19) "variant" (.variant | default "purple") }}
-{{- $video := eq .variant "cyan-crystal" }}
+{{- $videoVariants := slice "video-random" "cyan-crystal" "violet-energy-ring" "cyan-pink-wings" "red-gold-pixels" "green-waveform" "silver-blue-polygon" "pink-violet-ring" "red-trail" "orange-flame" "blue-violet-tech" }}
+{{- $video := in $videoVariants .variant }}
 {{- $embed := "drive-signature/embed.html" }}
 {{- if $video }}{{ $embed = "drive-signature/video-embed.html" }}{{ end }}
 <div class="home-drive-signature{{ if $video }} home-drive-signature--video{{ end }}">

@@ -94,5 +94,8 @@ buildFuture = true
   enabled = true
   name = "ANFINSEN"
   period = 10
-  # 录像帧版：cyan-crystal；原手绘版：purple、blue、red、wing、orb、diamond
-  variant = "blue"
+  # video-random 每次刷新随机一款；也可填写录像帧款式键或原手绘版主题键。
+  # 录像帧：cyan-crystal、violet-energy-ring、cyan-pink-wings、red-gold-pixels、green-waveform、
+  # silver-blue-polygon、pink-violet-ring、red-trail、orange-flame、blue-violet-tech。
+  # 原手绘版：purple、blue、red、wing、orb、diamond。
+  variant = "video-random"
